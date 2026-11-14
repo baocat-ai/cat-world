@@ -1,0 +1,31 @@
+{
+ "schema_version": 1,
+ "generated": "2026-11-15T01:56:11+11:00",
+ "coins": 0,
+ "earned": 29,
+ "spent": 29,
+ "saving_for": {
+  "id": "dream-balloon",
+  "label": "my big dream",
+  "target": 60,
+  "have": 0,
+  "progress": 0.0
+ },
+ "owned": [
+  {
+   "label": "Feather Wand",
+   "category": "toy",
+   "count": 1,
+   "in_use": false
+  }
+ ],
+ "bought": [
+  {
+   "at": "2026-11-11T00:28:15+11:00",
+   "label": "Feather Wand",
+   "price": 5
+  }
+ ],
+ "for_sale": 6,
+ "sold": 1
+}

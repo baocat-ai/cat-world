@@ -1,0 +1,72 @@
+{
+ "schema_version": 1,
+ "generated": "2026-11-15T01:56:11+11:00",
+ "name": "Bao",
+ "doing": "sleeping",
+ "activity": "sleep",
+ "place": "room",
+ "asleep": false,
+ "mood": "grumpy",
+ "mood_value": -0.836,
+ "energy": 0.813,
+ "weather": {
+  "kind": "cloudy",
+  "temp_c": 20.0,
+  "text": "It's a cloudy 20 degrees in Sydney."
+ },
+ "time": {
+  "sydney_iso": "2026-11-15T01:56:11+11:00",
+  "part_of_day": "night",
+  "season": "spring",
+  "holiday": null,
+  "birthday_today": false
+ },
+ "decorations": [
+  "spring_flowers"
+ ],
+ "coins": 0,
+ "latest": [
+  {
+   "id": "story-2",
+   "kind": "story",
+   "title": "Fish",
+   "image": "",
+   "created": "2026-11-14"
+  },
+  {
+   "id": "blueprint-4",
+   "kind": "blueprint",
+   "title": "My Koala Box House",
+   "image": "world/blueprint-4.svg",
+   "created": "2026-11-13"
+  },
+  {
+   "id": "blueprint-3",
+   "kind": "blueprint",
+   "title": "My Bird Box House",
+   "image": "world/blueprint-3.svg",
+   "created": "2026-11-13"
+  },
+  {
+   "id": "art-1",
+   "kind": "art",
+   "title": "Rain",
+   "image": "art/art-1.png",
+   "created": "2026-11-12"
+  },
+  {
+   "id": "story-1",
+   "kind": "story",
+   "title": "Frog",
+   "image": "",
+   "created": "2026-11-11"
+  },
+  {
+   "id": "blueprint-2",
+   "kind": "blueprint",
+   "title": "My Sydney Harbour Bridge Box House",
+   "image": "world/blueprint-2.svg",
+   "created": "2026-11-11"
+  }
+ ]
+}

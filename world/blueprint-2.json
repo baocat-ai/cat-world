@@ -1,0 +1,47 @@
+{
+ "name": "My Sydney Harbour Bridge Box House",
+ "parts": [
+  {
+   "colour": "#787a7e",
+   "label": "walls",
+   "material": "stone",
+   "pos": [
+    3.0,
+    0.0,
+    3.0
+   ],
+   "rotation": 357.8,
+   "size": [
+    5.0,
+    3.0,
+    4.0
+   ],
+   "type": "box"
+  },
+  {
+   "colour": "#337b7f",
+   "label": "door",
+   "material": "wood",
+   "pos": [
+    4.38,
+    0.0,
+    5.1
+   ],
+   "rotation": 0.0,
+   "size": [
+    1.0,
+    2.0,
+    0.2
+   ],
+   "type": "box"
+  }
+ ],
+ "schema": 1,
+ "size": [
+  6,
+  6,
+  16
+ ],
+ "structure": "house",
+ "tone": "gloomy"
+}

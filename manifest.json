@@ -1,0 +1,543 @@
+{
+ "schema": 1,
+ "creations": [
+  {
+   "id": "story-2",
+   "kind": "story",
+   "title": "Fish",
+   "description": "A tiny 6-word story about the fish.",
+   "subject": "fish",
+   "topics": [
+    "fish"
+   ],
+   "mood": "gloomy",
+   "skill": 0.01,
+   "techniques": [
+    "one_liner"
+   ],
+   "quality": {
+    "overall": 0.176,
+    "craft": 0.19,
+    "originality": 0.8,
+    "theme": 1.0,
+    "effort": 0.685
+   },
+   "cat_rating": 0.114,
+   "details": {
+    "words": 6,
+    "form": "story",
+    "tone": "gloomy",
+    "chapters": 0,
+    "finished": true
+   },
+   "price": 2,
+   "for_sale": true,
+   "edition": 3,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "fact",
+    "mood"
+   ],
+   "why": "I just learned something about fish",
+   "part_of_project": false,
+   "created": "2026-11-14",
+   "files": [
+    {
+     "path": "stories/story-2.md",
+     "format": "md",
+     "size_bytes": 47
+    }
+   ]
+  },
+  {
+   "id": "blueprint-4",
+   "kind": "blueprint",
+   "title": "My Koala Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "subject": "koala",
+   "topics": [
+    "koala",
+    "australia",
+    "animal"
+   ],
+   "mood": "gloomy",
+   "skill": 0.017,
+   "techniques": [
+    "box_house"
+   ],
+   "quality": {
+    "overall": 0.253,
+    "craft": 0.297,
+    "originality": 0.7,
+    "theme": 0.75,
+    "effort": 0.51
+   },
+   "cat_rating": 0.172,
+   "details": {
+    "structure": "house",
+    "parts": 2,
+    "tone": "gloomy",
+    "size": [
+     6,
+     5,
+     16
+    ],
+    "decorations": [],
+    "metres": [
+     3.0,
+     2.5,
+     8.0
+    ]
+   },
+   "price": 5,
+   "for_sale": true,
+   "edition": 1,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I really like koala",
+   "part_of_project": false,
+   "created": "2026-11-13",
+   "files": [
+    {
+     "path": "world/blueprint-4.json",
+     "format": "json",
+     "size_bytes": 543
+    },
+    {
+     "path": "world/blueprint-4.svg",
+     "format": "svg",
+     "size_bytes": 949
+    }
+   ]
+  },
+  {
+   "id": "blueprint-3",
+   "kind": "blueprint",
+   "title": "My Bird Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "subject": "bird",
+   "topics": [
+    "bird"
+   ],
+   "mood": "gloomy",
+   "skill": 0.011,
+   "techniques": [
+    "box_house"
+   ],
+   "quality": {
+    "overall": 0.187,
+    "craft": 0.233,
+    "originality": 0.325,
+    "theme": 0.75,
+    "effort": 0.664
+   },
+   "cat_rating": 0.114,
+   "details": {
+    "structure": "house",
+    "parts": 2,
+    "tone": "gloomy",
+    "size": [
+     6,
+     6,
+     16
+    ],
+    "decorations": [],
+    "metres": [
+     3.0,
+     3.0,
+     8.0
+    ]
+   },
+   "price": 4,
+   "for_sale": true,
+   "edition": 1,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "mood"
+   ],
+   "why": "I left it unfinished",
+   "part_of_project": false,
+   "created": "2026-11-13",
+   "files": [
+    {
+     "path": "world/blueprint-3.json",
+     "format": "json",
+     "size_bytes": 544
+    },
+    {
+     "path": "world/blueprint-3.svg",
+     "format": "svg",
+     "size_bytes": 997
+    }
+   ]
+  },
+  {
+   "id": "art-1",
+   "kind": "art",
+   "title": "Rain",
+   "description": "A wobbly teal scribble of rain.",
+   "subject": "rain",
+   "topics": [
+    "rain",
+    "bird",
+    "precipitation"
+   ],
+   "mood": "gloomy",
+   "skill": 0.002,
+   "techniques": [
+    "scribble"
+   ],
+   "quality": {
+    "overall": 0.179,
+    "craft": 0.191,
+    "originality": 0.94,
+    "theme": 0.865,
+    "effort": 0.705
+   },
+   "cat_rating": 0.115,
+   "details": {
+    "width": 512,
+    "height": 512,
+    "tone": "gloomy",
+    "medium": "scribble",
+    "motif": "known",
+    "style_genes": [
+     0.284,
+     0.373,
+     0.365,
+     0.452,
+     0.311
+    ],
+    "look": [
+     0.5,
+     0.011,
+     0.894,
+     0.146,
+     0.083,
+     0.216,
+     0.286,
+     0.956
+    ],
+    "png_size": 384,
+    "planner": "own"
+   },
+   "price": 0,
+   "for_sale": false,
+   "edition": 1,
+   "sold": 1,
+   "likes": 2,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I wondered what rain and bird have in common",
+   "part_of_project": false,
+   "created": "2026-11-12",
+   "files": [
+    {
+     "path": "art/art-1.png",
+     "format": "png",
+     "size_bytes": 6124
+    },
+    {
+     "path": "art/art-1.svg",
+     "format": "svg",
+     "size_bytes": 1967
+    }
+   ]
+  },
+  {
+   "id": "story-1",
+   "kind": "story",
+   "title": "Frog",
+   "description": "A tiny 6-word story about the frog.",
+   "subject": "frog",
+   "topics": [
+    "frog",
+    "amphibian",
+    "animal"
+   ],
+   "mood": "calm",
+   "skill": 0.001,
+   "techniques": [
+    "one_liner"
+   ],
+   "quality": {
+    "overall": 0.171,
+    "craft": 0.182,
+    "originality": 0.9,
+    "theme": 0.85,
+    "effort": 0.848
+   },
+   "cat_rating": 0.169,
+   "details": {
+    "words": 6,
+    "form": "story",
+    "tone": "calm",
+    "chapters": 0,
+    "finished": true
+   },
+   "price": 2,
+   "for_sale": true,
+   "edition": 3,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I really like frog",
+   "part_of_project": false,
+   "created": "2026-11-11",
+   "files": [
+    {
+     "path": "stories/story-1.md",
+     "format": "md",
+     "size_bytes": 47
+    }
+   ]
+  },
+  {
+   "id": "blueprint-2",
+   "kind": "blueprint",
+   "title": "My Sydney Harbour Bridge Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "subject": "sydney harbour bridge",
+   "topics": [
+    "sydney harbour bridge"
+   ],
+   "mood": "gloomy",
+   "skill": 0.004,
+   "techniques": [
+    "box_house"
+   ],
+   "quality": {
+    "overall": 0.245,
+    "craft": 0.27,
+    "originality": 0.8,
+    "theme": 0.75,
+    "effort": 0.855
+   },
+   "cat_rating": 0.218,
+   "details": {
+    "structure": "house",
+    "parts": 2,
+    "tone": "gloomy",
+    "size": [
+     6,
+     6,
+     16
+    ],
+    "decorations": [],
+    "metres": [
+     3.0,
+     3.0,
+     8.0
+    ]
+   },
+   "price": 5,
+   "for_sale": true,
+   "edition": 1,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "memory",
+    "mood"
+   ],
+   "why": "I remember sydney harbour bridge",
+   "part_of_project": false,
+   "created": "2026-11-11",
+   "files": [
+    {
+     "path": "world/blueprint-2.json",
+     "format": "json",
+     "size_bytes": 560
+    },
+    {
+     "path": "world/blueprint-2.svg",
+     "format": "svg",
+     "size_bytes": 1031
+    }
+   ]
+  },
+  {
+   "id": "music-1",
+   "kind": "music",
+   "title": "Plink Plonk",
+   "description": "A few wobbly plinks and meows about clouds.",
+   "subject": "clouds",
+   "topics": [
+    "clouds"
+   ],
+   "mood": "wild",
+   "skill": 0.0,
+   "techniques": [
+    "plink"
+   ],
+   "quality": {
+    "overall": 0.198,
+    "craft": 0.214,
+    "originality": 0.9,
+    "theme": 0.634,
+    "effort": 1.0
+   },
+   "cat_rating": 0.26,
+   "details": {
+    "bpm": 137,
+    "key": "none",
+    "scale": "chromatic",
+    "seconds": 4.36,
+    "tone": "wild",
+    "structure": "plinks",
+    "time_signature": "4/4",
+    "instruments": [
+     "beep"
+    ],
+    "voices": 1,
+    "sound_of": "rain"
+   },
+   "price": 2,
+   "for_sale": true,
+   "edition": 3,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "mood",
+    "weather"
+   ],
+   "why": "look at the cloudy outside",
+   "part_of_project": false,
+   "created": "2026-11-10",
+   "files": [
+    {
+     "path": "music/music-1.mid",
+     "format": "mid",
+     "size_bytes": 123
+    },
+    {
+     "path": "music/music-1.wav",
+     "format": "wav",
+     "size_bytes": 51404
+    }
+   ]
+  }
+ ],
+ "diary": [
+  {
+   "day": "2026-11-14",
+   "title": "A proud day",
+   "file": "diary/2026-11-14.md",
+   "mood": "sleepy"
+  },
+  {
+   "day": "2026-11-13",
+   "title": "dinosaurs! mrrp.",
+   "file": "diary/2026-11-13.md",
+   "mood": "sleepy"
+  },
+  {
+   "day": "2026-11-12",
+   "title": "ferry! mrrp.",
+   "file": "diary/2026-11-12.md",
+   "mood": "sleepy"
+  },
+  {
+   "day": "2026-11-11",
+   "title": "bats! mrrp.",
+   "file": "diary/2026-11-11.md",
+   "mood": "bored"
+  },
+  {
+   "day": "2026-11-10",
+   "title": "birds! mrrp.",
+   "file": "diary/2026-11-10.md",
+   "mood": "sleepy"
+  }
+ ],
+ "cat": {
+  "name": "Bao",
+  "generation": 1,
+  "born": "2026-11-10"
+ },
+ "updated": "2026-11-15",
+ "counts": {
+  "story": 2,
+  "blueprint": 3,
+  "art": 1,
+  "music": 1
+ },
+ "studio": {
+  "skills": {
+   "art": {
+    "level": 0.008,
+    "level_name": "brand-new artist",
+    "made": 1,
+    "techniques": [
+     "Scribbling"
+    ]
+   },
+   "music": {
+    "level": 0.007,
+    "level_name": "brand-new musician",
+    "made": 1,
+    "techniques": [
+     "Plinking"
+    ]
+   },
+   "story": {
+    "level": 0.017,
+    "level_name": "brand-new writer",
+    "made": 2,
+    "techniques": [
+     "One-liners"
+    ]
+   },
+   "comic": {
+    "level": 0.002,
+    "level_name": "brand-new comic artist",
+    "made": 0,
+    "techniques": [
+     "Single panel"
+    ]
+   },
+   "game": {
+    "level": 0.003,
+    "level_name": "brand-new game maker",
+    "made": 1,
+    "techniques": [
+     "Click toy"
+    ]
+   },
+   "blueprint": {
+    "level": 0.02,
+    "level_name": "brand-new architect",
+    "made": 4,
+    "techniques": [
+     "Box house"
+    ]
+   }
+  },
+  "palette": [
+   "#2f9c95",
+   "#8d6346",
+   "#ffbe0b",
+   "#ff8fab",
+   "#7d8fa3",
+   "#8e7d3a"
+  ],
+  "signature": "",
+  "style": {
+   "boldness": 0.37,
+   "neatness": 0.37,
+   "whimsy": 0.45,
+   "detail": 0.43,
+   "darkness": 0.33
+  }
+ }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<title>Rain</title>
+<desc>A wobbly teal scribble of rain.</desc>
+<defs><filter id="crayon" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="543" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="3" xChannelSelector="R" yChannelSelector="G" result="d"/><feTurbulence type="fractalNoise" baseFrequency="1.4 0.45" numOctaves="2" seed="550" result="g"/><feColorMatrix in="g" type="luminanceToAlpha" result="ga"/><feComponentTransfer in="ga" result="gm"><feFuncA type="table" tableValues="1 1 0.95 0.55 0.25"/></feComponentTransfer><feComposite in="d" in2="gm" operator="in"/></filter><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#2a1a35" stroke-width="1.6" stroke-opacity="0.55"/></pattern></defs>
+<rect x="0" y="0" width="512" height="512" fill="#fbf5e6"/>
+<g filter="url(#crayon)">
+<path d="M276 262C272 261 261 263 254 259C248 255 242 246 238 240C234 234 234 229 228 221C223 213 206 201 205 192C204 184 215 174 222 169C229 165 238 165 246 166C254 166 261 174 268 173C274 172 277 158 285 158C293 159 310 169 317 176C324 183 324 193 325 200C325 208 325 216 321 221C318 227 306 227 302 234C298 241 300 258 297 264C294 270 285 271 282 272" fill="none" stroke="#456c70" stroke-width="3.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M179 247C181 248 188 252 189 251C190 249 184 246 185 237C187 228 196 203 197 197C198 192 187 207 190 205C194 203 211 187 219 187C228 187 236 198 242 203C248 209 255 218 256 220C257 222 247 213 249 216C251 219 266 231 266 236C266 242 257 244 250 250C243 256 231 266 226 271C221 276 220 281 218 279C215 277 218 264 212 258C205 253 184 248 178 246" fill="none" stroke="#456c70" stroke-width="3.9" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="208" height="234" viewBox="0 0 208 234">
+<title>My Sydney Harbour Bridge Box House</title>
+<rect x="0" y="0" width="208" height="234" fill="#f4efe6"/>
+<rect x="20" y="46" width="168" height="168" fill="#e3eed6" stroke="#8a8a80"/>
+<path d="M20 46V214M48 46V214M76 46V214M104 46V214M132 46V214M160 46V214M188 46V214M20 46H188M20 74H188M20 102H188M20 130H188M20 158H188M20 186H188M20 214H188" stroke="#c9d6bc" stroke-width="0.6" fill="none"/>
+<rect x="128.6" y="186.0" width="28.0" height="5.6" fill="#337b7f" stroke="#215053" stroke-width="0.8"/>
+<rect x="34.0" y="74.0" width="140.0" height="112.0" fill="#787a7e" stroke="#4e4f52" stroke-width="0.8" transform="rotate(357.8 104.0 130.0)"/>
+<text x="20" y="30" font-family="sans-serif" font-size="9" font-weight="bold" fill="#2b2b2b">My Sydney Harbour Bridge Box House</text>
+<path d="M182 12L177 24H187Z" fill="#2b2b2b"/>
+<text x="182" y="38" font-family="sans-serif" font-size="11" text-anchor="middle" fill="#2b2b2b">N</text>
+</svg>

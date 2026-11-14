@@ -1,0 +1,596 @@
+{
+ "schema_version": 1,
+ "generated": "2026-11-15T01:56:11+11:00",
+ "name": "Bao",
+ "goals": [
+  {
+   "what": "try zoomies for the first time",
+   "why": "because I've never tried it and I wonder what it's like",
+   "kind": "explore",
+   "progress": 0
+  },
+  {
+   "what": "learn about Sydney",
+   "why": "because sydney keeps popping into my head",
+   "kind": "learn",
+   "progress": 0
+  },
+  {
+   "what": "get better at zoomies",
+   "why": "because I thought about it",
+   "kind": "habit",
+   "progress": 0
+  },
+  {
+   "what": "save up for my big dream",
+   "why": "fly over the island in a hot-air balloon",
+   "kind": "save_up",
+   "progress": 0
+  }
+ ],
+ "dream": {
+  "what": "fly over the island in a hot-air balloon",
+  "why": "I want to see my whole island from the sky.",
+  "kind": "big_dream",
+  "progress": 0
+ },
+ "wants": [
+  "dream-balloon"
+ ],
+ "worries": [
+  "I'm getting hungry.",
+  "I'm a bit bored.",
+  "I'm feeling a bit lonely.",
+  "Saving up is taking ages."
+ ],
+ "interests": [
+  {
+   "topic": "rain",
+   "strength": 0.586
+  },
+  {
+   "topic": "frog",
+   "strength": 0.382
+  },
+  {
+   "topic": "sydney",
+   "strength": 0.372
+  },
+  {
+   "topic": "cat",
+   "strength": 0.356
+  },
+  {
+   "topic": "tyrannosaurus",
+   "strength": 0.353
+  },
+  {
+   "topic": "tail",
+   "strength": 0.314
+  },
+  {
+   "topic": "eucalyptus tree",
+   "strength": 0.29
+  },
+  {
+   "topic": "ocean",
+   "strength": 0.255
+  }
+ ],
+ "obsession": null,
+ "saving_for": {
+  "id": "dream-balloon",
+  "label": "my big dream",
+  "target": 60,
+  "have": 0,
+  "progress": 0.0
+ },
+ "projects": [],
+ "brain": {
+  "needs": {
+   "food": 0,
+   "energy": 0.813,
+   "fun": 0,
+   "social": 0,
+   "comfort": 0.657,
+   "learning": 0.625
+  },
+  "dials": {
+   "energy": 0.672,
+   "mood": 0.165
+  },
+  "mood": {
+   "label": "grumpy",
+   "valence": -0.836,
+   "arousal": 0.735,
+   "feelings": [
+    {
+     "name": "annoyance",
+     "amount": 0.311
+    },
+    {
+     "name": "joy",
+     "amount": 0.185
+    },
+    {
+     "name": "boredom",
+     "amount": 0.153
+    }
+   ]
+  },
+  "deciding_now": {
+   "chose": "eat",
+   "because": "I chose to eat because I'm hungry and it fits my plans and routine right now. I also thought about naps.",
+   "at": "2026-11-15T01:56:11.938535+11:00",
+   "options": [
+    {
+     "action": "eat",
+     "label": "eating",
+     "score": 1.842,
+     "parts": {
+      "bias": 0.4,
+      "learned": 0.355,
+      "mood": 0.0,
+      "need": 1.055,
+      "noise": 0.002,
+      "novelty": 0.03,
+      "personality": 0.0
+     },
+     "reasons": [
+      "I'm hungry",
+      "it fits my plans and routine right now",
+      "it went well last time"
+     ],
+     "against": []
+    },
+    {
+     "action": "nap",
+     "label": "having a cat nap",
+     "score": 0.582,
+     "parts": {
+      "bias": 0.1,
+      "learned": 0.096,
+      "mood": -0.059,
+      "need": 0.072,
+      "noise": -0.007,
+      "novelty": 0.036,
+      "personality": 0.343
+     },
+     "reasons": [
+      "I'm a lazy cat",
+      "it fits my plans and routine right now",
+      "it went well last time",
+      "I'm sleepy"
+     ],
+     "against": [
+      "I'm not in the mood"
+     ]
+    },
+    {
+     "action": "sulk",
+     "label": "sulking",
+     "score": 0.572,
+     "parts": {
+      "bias": 0.0,
+      "learned": 0.003,
+      "mood": 0.376,
+      "need": -0.055,
+      "noise": -0.011,
+      "novelty": 0.08,
+      "personality": 0.179
+     },
+     "reasons": [
+      "it suits my mood",
+      "I'm a grumpy cat",
+      "I haven't done it for a while"
+     ],
+     "against": [
+      "it would tire me out"
+     ]
+    },
+    {
+     "action": "knock_things_over",
+     "label": "knocking things off the shelf",
+     "score": 0.477,
+     "parts": {
+      "bias": 0.037,
+      "learned": -0.022,
+      "mood": -0.116,
+      "need": 0.444,
+      "noise": 0.014,
+      "novelty": 0.048,
+      "personality": 0.072
+     },
+     "reasons": [
+      "I'm bored",
+      "I'm a grumpy cat"
+     ],
+     "against": [
+      "I'm not in the mood"
+     ]
+    },
+    {
+     "action": "daydream",
+     "label": "daydreaming",
+     "score": 0.365,
+     "parts": {
+      "bias": 0.0,
+      "learned": 0.022,
+      "mood": 0.0,
+      "need": 0.128,
+      "noise": 0.009,
+      "novelty": 0.043,
+      "personality": 0.163
+     },
+     "reasons": [
+      "I'm a lazy cat",
+      "I'm bored"
+     ],
+     "against": []
+    },
+    {
+     "action": "check_sales",
+     "label": "checking its shop",
+     "score": 0.35,
+     "parts": {
+      "bias": -0.12,
+      "learned": 0.0,
+      "mood": 0.0,
+      "need": 0.224,
+      "noise": -0.025,
+      "novelty": 0.252,
+      "personality": 0.019
+     },
+     "reasons": [
+      "I've never tried it before",
+      "I wonder if anyone liked my things"
+     ],
+     "against": [
+      "it's not the right time for it"
+     ]
+    }
+   ]
+  },
+  "recent_decisions": [
+   {
+    "at": "2026-11-15T01:03:22+11:00",
+    "chose": "sleep",
+    "because": "Time to sleep. I'm sleepy."
+   },
+   {
+    "at": "2026-11-15T00:51:57+11:00",
+    "chose": "read",
+    "because": "Next on my list: read. (I keep wondering Why do some animals have short bobtails instead of long tails.)"
+   },
+   {
+    "at": "2026-11-15T00:31:57+11:00",
+    "chose": "watch_window",
+    "because": "Next on my list: watch the window. (I like watching the window.)"
+   },
+   {
+    "at": "2026-11-14T23:54:40+11:00",
+    "chose": "work_on_place",
+    "because": "I want to finish building The Sydney Acorn, and I've never tried it before. So: work on my building."
+   },
+   {
+    "at": "2026-11-14T23:34:40+11:00",
+    "chose": "groom",
+    "because": "I want to feel cosy, and I haven't done it for a while. So: groom."
+   },
+   {
+    "at": "2026-11-14T21:57:33+11:00",
+    "chose": "eat",
+    "because": "I am grumpy and my food bowl is low, so I need snacks and a quick rest first."
+   }
+  ]
+ },
+ "values": [
+  "making things",
+  "adventure",
+  "fairness"
+ ],
+ "pulls": [
+  {
+   "kind": "question",
+   "text": "Why do some animals have short bobtails instead of long tails",
+   "weight": 0.5,
+   "opened": "2026-11-14"
+  },
+  {
+   "kind": "work",
+   "text": "finish a game about my food bowl",
+   "weight": 0.5,
+   "opened": "2026-11-15"
+  },
+  {
+   "kind": "want",
+   "text": "fly over the island in a hot-air balloon",
+   "weight": 0.448,
+   "opened": "2026-11-14"
+  },
+  {
+   "kind": "work",
+   "text": "try a game again",
+   "weight": 0.348,
+   "opened": "2026-11-13"
+  },
+  {
+   "kind": "want",
+   "text": "save up for my big dream",
+   "weight": 0.34,
+   "opened": "2026-11-14"
+  },
+  {
+   "kind": "question",
+   "text": "what tyrannosaurus is all about",
+   "weight": 0.307,
+   "opened": "2026-11-13"
+  },
+  {
+   "kind": "question",
+   "text": "what's the story with rain",
+   "weight": 0.296,
+   "opened": "2026-11-13"
+  },
+  {
+   "kind": "want",
+   "text": "know everything about birds",
+   "weight": 0.248,
+   "opened": "2026-11-12"
+  }
+ ],
+ "beliefs": [
+  {
+   "text": "I get there in the end",
+   "evidence": 2,
+   "since": "2026-11-11"
+  },
+  {
+   "text": "making blueprints cheers me up",
+   "evidence": 2,
+   "since": "2026-11-11"
+  },
+  {
+   "text": "people like my drawings",
+   "evidence": 2,
+   "since": "2026-11-12"
+  },
+  {
+   "text": "trying again usually works",
+   "evidence": 1,
+   "since": "2026-11-11"
+  },
+  {
+   "text": "making stories cheers me up",
+   "evidence": 1,
+   "since": "2026-11-11"
+  },
+  {
+   "text": "making drawings cheers me up",
+   "evidence": 1,
+   "since": "2026-11-12"
+  },
+  {
+   "text": "people like my rain drawings",
+   "evidence": 1,
+   "since": "2026-11-13"
+  },
+  {
+   "text": "games are harder than they look",
+   "evidence": 1,
+   "since": "2026-11-13"
+  }
+ ],
+ "verdicts": [
+  {
+   "about": "watching the window",
+   "line": "Watching the window: worth it.",
+   "score": 0.385,
+   "visits": 7,
+   "since": "2026-11-11"
+  },
+  {
+   "about": "drawings",
+   "line": "Drawings are good. I'd do it again.",
+   "score": 0.433,
+   "visits": 1,
+   "since": "2026-11-12"
+  },
+  {
+   "about": "outings",
+   "line": "Outings: nope.",
+   "score": -0.425,
+   "visits": 1,
+   "since": "2026-11-10"
+  },
+  {
+   "about": "daydreaming",
+   "line": "Daydreaming: some days yes, some days no.",
+   "score": 0.272,
+   "visits": 3,
+   "since": "2026-11-11"
+  },
+  {
+   "about": "rain drawings",
+   "line": "Rain drawings: worth it.",
+   "score": 0.348,
+   "visits": 1,
+   "since": "2026-11-12"
+  },
+  {
+   "about": "exploring",
+   "line": "I like exploring, quietly.",
+   "score": 0.205,
+   "visits": 5,
+   "since": "2026-11-10"
+  },
+  {
+   "about": "reading",
+   "line": "Not sure about reading yet.",
+   "score": 0.205,
+   "visits": 4,
+   "since": "2026-11-10"
+  },
+  {
+   "about": "feather wand",
+   "line": "I like feather wand, quietly.",
+   "score": 0.252,
+   "visits": 1,
+   "since": "2026-11-11"
+  },
+  {
+   "about": "blueprints",
+   "line": "Blueprints are a mixed bag for me.",
+   "score": 0.157,
+   "visits": 4,
+   "since": "2026-11-11"
+  },
+  {
+   "about": "shopping",
+   "line": "Shopping is good. I'd do it again.",
+   "score": 0.234,
+   "visits": 1,
+   "since": "2026-11-11"
+  }
+ ],
+ "promises": [],
+ "unfinished": [
+  {
+   "place": "room",
+   "place_name": "My room",
+   "what": "a game about my food bowl",
+   "since": "2026-11-13"
+  },
+  {
+   "place": "treehouse",
+   "place_name": "The Sydney Acorn",
+   "what": "building The Sydney Acorn",
+   "since": "2026-11-14"
+  }
+ ],
+ "reading_trails": [
+  {
+   "at": "2026-11-15T00:51:57+11:00",
+   "source": "Simple English Wikipedia",
+   "steps": [
+    {
+     "title": "Tyrannosaurus",
+     "why": "I wanted to learn about tyrannosaurus for a goal"
+    },
+    {
+     "title": "Upper Cretaceous",
+     "why": "I'd never read about Upper Cretaceous before"
+    }
+   ],
+   "facts": [
+    "Tyrannosaurus means tyrant lizard and walked on two legs!",
+    "It had a huge skull, a heavy tail, and tiny but powerful arms with two claws."
+   ]
+  },
+  {
+   "at": "2026-11-14T21:00:23+11:00",
+   "source": "Simple English Wikipedia",
+   "steps": [
+    {
+     "title": "Tail",
+     "why": "I wanted to learn about tail for a goal"
+    },
+    {
+     "title": "Cat",
+     "why": "I am a cat and I want to read about myself!"
+    },
+    {
+     "title": "Mammal",
+     "why": "I'd never read about Mammal before"
+    }
+   ],
+   "facts": [
+    "Most animals have tails, including us cats, dogs, whales, fish, cheetahs, and monkeys!",
+    "Tails help land animals balance in trees and signal to each other."
+   ]
+  },
+  {
+   "at": "2026-11-14T18:23:35+11:00",
+   "source": "Simple English Wikipedia",
+   "steps": [
+    {
+     "title": "Tyrannosaurus",
+     "why": "I wanted to learn about tyrannosaurus for a goal"
+    }
+   ],
+   "facts": [
+    "It was the last known tyrannosaurid.",
+    "Tyrannosaurus was a bipedal carnivore with a massive skull balanced by a long, heavy tail."
+   ]
+  }
+ ],
+ "thoughts": [
+  {
+   "at": "2026-11-15T00:11:57+11:00",
+   "text": "No tail on humans is weird. Need a friend to chase my tail with instead. I want to try zoomies now. Dunno how to fly yet.",
+   "wonder": "Why do some animals have short bobtails instead of long tails?"
+  },
+  {
+   "at": "2026-11-14T21:00:23+11:00",
+   "text": "Rain outside. Big lizard dinosaur had a huge heavy tail to balance its big head. Dunno if it could do zoomies with a tail like that.",
+   "wonder": "How do dinosaurs balance their bodies with big heavy tails?"
+  },
+  {
+   "at": "2026-11-14T16:08:40+11:00",
+   "text": "Empty bowl makes me grumpy. Need fish and giant clams. Dunno how to make a coral reef, but my sleepy bed is much softer.",
+   "wonder": "How do sea turtles breathe underwater?"
+  },
+  {
+   "at": "2026-11-14T13:46:29+11:00",
+   "text": "Earlier today: Oops! While trying to eat, it knocked the food bowl over. I keep thinking about that.",
+   "wonder": "what tyrannosaurus is all about"
+  }
+ ],
+ "wishes": {
+  "open": [
+   {
+    "id": 1,
+    "thing": "a statue of me",
+    "why": "So the frogs remember me when I nap.",
+    "where": "by the pond",
+    "status": "later",
+    "status_words": "maybe later",
+    "kind": "needs making"
+   },
+   {
+    "id": 2,
+    "thing": "a tree swing",
+    "why": "So I can swing high and pretend I'm flying.",
+    "where": "under the biggest tree",
+    "status": "open",
+    "status_words": "wished for",
+    "kind": "needs making"
+   }
+  ],
+  "came_true": []
+ },
+ "big_dream": {
+  "came_true": [],
+  "what": "fly over the island in a hot-air balloon",
+  "why": "I want to see my whole island from the sky.",
+  "steps": [
+   {
+    "what": "save 60 coins in my dream jar",
+    "done": false
+   },
+   {
+    "what": "learn all about hot air balloons",
+    "done": false
+   },
+   {
+    "what": "draw the island as a bird would see it",
+    "done": false
+   },
+   {
+    "what": "ask for a hot-air balloon",
+    "done": false
+   }
+  ],
+  "progress": 0.0
+ }
+}

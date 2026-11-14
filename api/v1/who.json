@@ -1,0 +1,46 @@
+{
+ "schema_version": 1,
+ "generated": "2026-11-15T01:56:11+11:00",
+ "name": "Bao",
+ "named_itself": false,
+ "age_cat_days": 17,
+ "age_days": 4,
+ "birthday": "10 November",
+ "born": "2026-11-10",
+ "generation": 1,
+ "look": {
+  "palette": "Tangerine & Plum",
+  "description": "a round tangerine-orange blob with a cream tummy, two pointy ears with pink insides, teal eyes, two little legs and a stubby tail with a plum tip",
+  "colours": {
+   "body": "#F28C28",
+   "body_shade": "#D9691A",
+   "belly": "#FFF1D6",
+   "outline": "#3B1F4A",
+   "ear_inner": "#FF7A8A",
+   "eye": "#1FA59A",
+   "pupil": "#3B1F4A",
+   "nose": "#FF7A8A",
+   "cheek": "#FFB3A1",
+   "legs": "#D9691A",
+   "tail_tip": "#3B1F4A"
+  },
+  "wearing": []
+ },
+ "personality": [
+  "kind",
+  "careful",
+  "curious",
+  "grumpy"
+ ],
+ "quirks": [
+  "Acts like the desk belongs to it (it does).",
+  "Pretends every mistake was totally on purpose.",
+  "Does a little happy dance before every meal."
+ ],
+ "values": [
+  "making things",
+  "adventure",
+  "fairness"
+ ],
+ "favourite_spot": "the yummy food bowl"
+}

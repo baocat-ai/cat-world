@@ -1,0 +1,166 @@
+{
+ "schema_version": 1,
+ "generated": "2026-11-15T01:56:11+11:00",
+ "count": 7,
+ "items": [
+  {
+   "id": "story-2",
+   "kind": "story",
+   "title": "Fish",
+   "description": "A tiny 6-word story about the fish.",
+   "created": "2026-11-14",
+   "image": "",
+   "files": [
+    "stories/story-2.md"
+   ],
+   "topics": [
+    "fish"
+   ],
+   "quality": 0.176,
+   "cat_rating": 0.114,
+   "likes": 0,
+   "price": 2,
+   "for_sale": true,
+   "why": "I just learned something about fish"
+  },
+  {
+   "id": "blueprint-4",
+   "kind": "blueprint",
+   "title": "My Koala Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "created": "2026-11-13",
+   "image": "world/blueprint-4.svg",
+   "files": [
+    "world/blueprint-4.json",
+    "world/blueprint-4.svg"
+   ],
+   "topics": [
+    "koala",
+    "australia",
+    "animal"
+   ],
+   "quality": 0.253,
+   "cat_rating": 0.172,
+   "likes": 0,
+   "price": 5,
+   "for_sale": true,
+   "why": "I really like koala"
+  },
+  {
+   "id": "blueprint-3",
+   "kind": "blueprint",
+   "title": "My Bird Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "created": "2026-11-13",
+   "image": "world/blueprint-3.svg",
+   "files": [
+    "world/blueprint-3.json",
+    "world/blueprint-3.svg"
+   ],
+   "topics": [
+    "bird"
+   ],
+   "quality": 0.187,
+   "cat_rating": 0.114,
+   "likes": 0,
+   "price": 4,
+   "for_sale": true,
+   "why": "I left it unfinished"
+  },
+  {
+   "id": "art-1",
+   "kind": "art",
+   "title": "Rain",
+   "description": "A wobbly teal scribble of rain.",
+   "created": "2026-11-12",
+   "image": "art/art-1.png",
+   "files": [
+    "art/art-1.png",
+    "art/art-1.svg"
+   ],
+   "topics": [
+    "rain",
+    "bird",
+    "precipitation"
+   ],
+   "quality": 0.179,
+   "cat_rating": 0.115,
+   "likes": 2,
+   "price": 0,
+   "for_sale": false,
+   "why": "I wondered what rain and bird have in common"
+  },
+  {
+   "id": "story-1",
+   "kind": "story",
+   "title": "Frog",
+   "description": "A tiny 6-word story about the frog.",
+   "created": "2026-11-11",
+   "image": "",
+   "files": [
+    "stories/story-1.md"
+   ],
+   "topics": [
+    "frog",
+    "amphibian",
+    "animal"
+   ],
+   "quality": 0.171,
+   "cat_rating": 0.169,
+   "likes": 0,
+   "price": 2,
+   "for_sale": true,
+   "why": "I really like frog"
+  },
+  {
+   "id": "blueprint-2",
+   "kind": "blueprint",
+   "title": "My Sydney Harbour Bridge Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "created": "2026-11-11",
+   "image": "world/blueprint-2.svg",
+   "files": [
+    "world/blueprint-2.json",
+    "world/blueprint-2.svg"
+   ],
+   "topics": [
+    "sydney harbour bridge"
+   ],
+   "quality": 0.245,
+   "cat_rating": 0.218,
+   "likes": 0,
+   "price": 5,
+   "for_sale": true,
+   "why": "I remember sydney harbour bridge"
+  },
+  {
+   "id": "music-1",
+   "kind": "music",
+   "title": "Plink Plonk",
+   "description": "A few wobbly plinks and meows about clouds.",
+   "created": "2026-11-10",
+   "image": "",
+   "files": [
+    "music/music-1.mid",
+    "music/music-1.wav"
+   ],
+   "topics": [
+    "clouds"
+   ],
+   "quality": 0.198,
+   "cat_rating": 0.26,
+   "likes": 0,
+   "price": 2,
+   "for_sale": true,
+   "why": "look at the cloudy outside"
+  }
+ ],
+ "picks": [
+  {
+   "id": "art-1",
+   "title": "Rain",
+   "image": "art/art-1.png",
+   "note": "Anything with rain in it makes me purr."
+  }
+ ]
+}

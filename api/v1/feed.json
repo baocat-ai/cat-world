@@ -1,0 +1,256 @@
+{
+ "schema_version": 1,
+ "generated": "2026-11-15T01:56:11+11:00",
+ "items": [
+  {
+   "at": "2026-11-15T01:03:22+11:00",
+   "kind": "did",
+   "text": "Had a long snooze under the bed."
+  },
+  {
+   "at": "2026-11-15T01:03:22+11:00",
+   "kind": "noticed",
+   "text": "It's a cloudy 20 degrees in Sydney."
+  },
+  {
+   "at": "2026-11-15T00:51:57+11:00",
+   "kind": "did",
+   "text": "Followed a reading trail: Tyrannosaurus, then Upper Cretaceous."
+  },
+  {
+   "at": "2026-11-15T00:51:57+11:00",
+   "kind": "did",
+   "text": "Read about upper cretaceous in Simple Wikipedia (Upper Cretaceous)"
+  },
+  {
+   "at": "2026-11-15T00:51:57+11:00",
+   "kind": "noticed",
+   "text": "Learned something new about upper cretaceous"
+  },
+  {
+   "at": "2026-11-15T00:51:57+11:00",
+   "kind": "noticed",
+   "text": "Noticed new topics: upper cretaceous, cretaceous, algae, microscope"
+  },
+  {
+   "at": "2026-11-15T00:51:57+11:00",
+   "kind": "noticed",
+   "text": "Learned something new about Tyrannosaurus"
+  },
+  {
+   "at": "2026-11-15T00:51:57+11:00",
+   "kind": "did",
+   "text": "Re-read about tyrannosaurus in Simple Wikipedia (Tyrannosaurus)"
+  },
+  {
+   "at": "2026-11-15T00:51:57+11:00",
+   "kind": "noticed",
+   "text": "Noticed new topics: lion, earth"
+  },
+  {
+   "at": "2026-11-15T00:51:57+11:00",
+   "kind": "felt",
+   "text": "Bao is feeling hungry."
+  },
+  {
+   "at": "2026-11-15T00:31:57+11:00",
+   "kind": "did",
+   "text": "Watched raindrops race each other down the window."
+  },
+  {
+   "at": "2026-11-15T00:31:57+11:00",
+   "kind": "mind",
+   "text": "A game about my food bowl. Still here, for days now. Hmm."
+  },
+  {
+   "at": "2026-11-15T00:11:57+11:00",
+   "kind": "mind",
+   "text": "When I'm done, I'll watch the window, then read. I am grumpy and want to read more about short tails, then watch birds outside to cheer up."
+  },
+  {
+   "at": "2026-11-15T00:11:57+11:00",
+   "kind": "mind",
+   "text": "Why do some animals have short bobtails instead of long tails?"
+  },
+  {
+   "at": "2026-11-15T00:11:57+11:00",
+   "kind": "mind",
+   "text": "No tail on humans is weird. Need a friend to chase my tail with instead. I want to try zoomies now. Dunno how to fly yet."
+  },
+  {
+   "at": "2026-11-14T23:54:40+11:00",
+   "kind": "did",
+   "text": "Worked on The Sydney Acorn (11% done)."
+  },
+  {
+   "at": "2026-11-14T23:54:40+11:00",
+   "kind": "mind",
+   "text": "Back here, and building The Sydney Acorn is still waiting."
+  },
+  {
+   "at": "2026-11-14T23:34:40+11:00",
+   "kind": "did",
+   "text": "Licked its tail into shape."
+  },
+  {
+   "at": "2026-11-14T23:34:40+11:00",
+   "kind": "did",
+   "text": "Bao woke up early, full of beans."
+  },
+  {
+   "at": "2026-11-14T22:37:33+11:00",
+   "kind": "mind",
+   "text": "Wrote in my notebook: Does a little happy dance before every meal. That's just me."
+  },
+  {
+   "at": "2026-11-14T22:17:33+11:00",
+   "kind": "did",
+   "text": "Wrote a diary entry: A proud day"
+  },
+  {
+   "at": "2026-11-14T22:17:33+11:00",
+   "kind": "did",
+   "text": "Bao curled up on the sofa and fell asleep."
+  },
+  {
+   "at": "2026-11-14T21:57:33+11:00",
+   "kind": "did",
+   "text": "Had dinner."
+  },
+  {
+   "at": "2026-11-14T21:57:33+11:00",
+   "kind": "mind",
+   "text": "I have a big dream now: to fly over the island in a hot-air balloon. It will take a long time, but I'm going to do it, step by step."
+  },
+  {
+   "at": "2026-11-14T21:40:23+11:00",
+   "kind": "did",
+   "text": "Daydreamed about how bird and rain might be connected (it remembered facts about boths)."
+  },
+  {
+   "at": "2026-11-14T21:40:23+11:00",
+   "kind": "noticed",
+   "text": "Noticed a new topic: moth"
+  },
+  {
+   "at": "2026-11-14T21:40:23+11:00",
+   "kind": "noticed",
+   "text": "A big fluffy moth flew in and bumped around the lamp."
+  },
+  {
+   "at": "2026-11-14T21:20:23+11:00",
+   "kind": "did",
+   "text": "Thought about the time it sat on its work by accident while trying to make game, and decided to be more careful next time."
+  },
+  {
+   "at": "2026-11-14T21:00:23+11:00",
+   "kind": "did",
+   "text": "Followed a reading trail: Tail, then Cat, then Mammal."
+  },
+  {
+   "at": "2026-11-14T21:00:23+11:00",
+   "kind": "did",
+   "text": "Read about mammal in Simple Wikipedia (Mammal)"
+  },
+  {
+   "at": "2026-11-14T21:00:23+11:00",
+   "kind": "noticed",
+   "text": "Learned something new about mammals"
+  },
+  {
+   "at": "2026-11-14T21:00:23+11:00",
+   "kind": "noticed",
+   "text": "Noticed a new topic: fur"
+  },
+  {
+   "at": "2026-11-14T21:00:23+11:00",
+   "kind": "did",
+   "text": "Read about cat in Simple Wikipedia (Cat)"
+  },
+  {
+   "at": "2026-11-14T21:00:23+11:00",
+   "kind": "noticed",
+   "text": "Learned something new about cats"
+  },
+  {
+   "at": "2026-11-14T21:00:23+11:00",
+   "kind": "noticed",
+   "text": "Noticed a new topic: shorthair"
+  },
+  {
+   "at": "2026-11-14T21:00:23+11:00",
+   "kind": "noticed",
+   "text": "Learned something new about tails"
+  },
+  {
+   "at": "2026-11-14T21:00:23+11:00",
+   "kind": "did",
+   "text": "Read about tail in Simple Wikipedia (Tail)"
+  },
+  {
+   "at": "2026-11-14T21:00:23+11:00",
+   "kind": "noticed",
+   "text": "Learned something new about tails"
+  },
+  {
+   "at": "2026-11-14T21:00:23+11:00",
+   "kind": "noticed",
+   "text": "Noticed a new topic: lizard"
+  },
+  {
+   "at": "2026-11-14T21:00:23+11:00",
+   "kind": "mind",
+   "text": "How do dinosaurs balance their bodies with big heavy tails?"
+  },
+  {
+   "at": "2026-11-14T21:00:23+11:00",
+   "kind": "mind",
+   "text": "Rain outside. Big lizard dinosaur had a huge heavy tail to balance its big head. Dunno if it could do zoomies with a tail like that."
+  },
+  {
+   "at": "2026-11-14T21:00:23+11:00",
+   "kind": "noticed",
+   "text": "A big aeroplane roared low overhead."
+  },
+  {
+   "at": "2026-11-14T21:00:23+11:00",
+   "kind": "felt",
+   "text": "Bao is feeling restless for something new."
+  },
+  {
+   "at": "2026-11-14T20:43:45+11:00",
+   "kind": "did",
+   "text": "Had dinner."
+  },
+  {
+   "at": "2026-11-14T20:43:45+11:00",
+   "kind": "noticed",
+   "text": "Rain pattered softly on the roof."
+  },
+  {
+   "at": "2026-11-14T19:43:35+11:00",
+   "kind": "did",
+   "text": "Had a long snooze on the desk."
+  },
+  {
+   "at": "2026-11-14T19:43:35+11:00",
+   "kind": "mind",
+   "text": "A game about my food bowl again. I keep meaning to get to it."
+  },
+  {
+   "at": "2026-11-14T19:43:35+11:00",
+   "kind": "noticed",
+   "text": "Someone left a crinkly paper bag on the floor."
+  },
+  {
+   "at": "2026-11-14T19:43:35+11:00",
+   "kind": "felt",
+   "text": "Bao is feeling hungry."
+  },
+  {
+   "at": "2026-11-14T19:23:35+11:00",
+   "kind": "did",
+   "text": "Pushed a pen off the table. For science."
+  }
+ ]
+}
