@@ -1,0 +1,47 @@
+{
+ "name": "My Koala Box House",
+ "parts": [
+  {
+   "colour": "#787a7e",
+   "label": "walls",
+   "material": "stone",
+   "pos": [
+    3.0,
+    0.0,
+    2.5
+   ],
+   "rotation": 0.0,
+   "size": [
+    5.0,
+    3.0,
+    3.0
+   ],
+   "type": "box"
+  },
+  {
+   "colour": "#337b7f",
+   "label": "door",
+   "material": "wood",
+   "pos": [
+    1.47,
+    0.33,
+    4.1
+   ],
+   "rotation": 0.0,
+   "size": [
+    1.0,
+    2.0,
+    0.2
+   ],
+   "type": "box"
+  }
+ ],
+ "schema": 1,
+ "size": [
+  6,
+  5,
+  16
+ ],
+ "structure": "house",
+ "tone": "gloomy"
+}

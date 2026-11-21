@@ -1,0 +1,72 @@
+{
+ "schema_version": 1,
+ "generated": "2026-11-21T22:58:43+11:00",
+ "name": "Bao",
+ "doing": "sleeping",
+ "activity": "sleep",
+ "place": "room",
+ "asleep": true,
+ "mood": "sleepy",
+ "mood_value": -0.301,
+ "energy": 1,
+ "weather": {
+  "kind": "clear",
+  "temp_c": 23.1,
+  "text": "It's a clear night and 23 degrees in Sydney."
+ },
+ "time": {
+  "sydney_iso": "2026-11-21T22:58:43+11:00",
+  "part_of_day": "night",
+  "season": "spring",
+  "holiday": null,
+  "birthday_today": false
+ },
+ "decorations": [
+  "spring_flowers"
+ ],
+ "coins": 3,
+ "latest": [
+  {
+   "id": "comic-5",
+   "kind": "comic",
+   "title": "Cloud",
+   "image": "comics/comic-5.png",
+   "created": "2026-11-21"
+  },
+  {
+   "id": "story-10",
+   "kind": "story",
+   "title": "Rain",
+   "image": "",
+   "created": "2026-11-21"
+  },
+  {
+   "id": "comic-4",
+   "kind": "comic",
+   "title": "Seismometer",
+   "image": "comics/comic-4.png",
+   "created": "2026-11-21"
+  },
+  {
+   "id": "blueprint-9",
+   "kind": "blueprint",
+   "title": "My Aeroplane Box House",
+   "image": "world/blueprint-9.svg",
+   "created": "2026-11-20"
+  },
+  {
+   "id": "story-9",
+   "kind": "story",
+   "title": "Rain",
+   "image": "",
+   "created": "2026-11-20"
+  },
+  {
+   "id": "blueprint-8",
+   "kind": "blueprint",
+   "title": "My Hot Air Balloon Box House",
+   "image": "world/blueprint-8.svg",
+   "created": "2026-11-20"
+  }
+ ]
+}

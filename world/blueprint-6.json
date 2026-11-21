@@ -1,0 +1,47 @@
+{
+ "name": "My Cloud Box House",
+ "parts": [
+  {
+   "colour": "#787a7e",
+   "label": "walls",
+   "material": "stone",
+   "pos": [
+    3.5,
+    0.0,
+    3.5
+   ],
+   "rotation": 0.0,
+   "size": [
+    5.0,
+    3.0,
+    4.0
+   ],
+   "type": "box"
+  },
+  {
+   "colour": "#337b7f",
+   "label": "door",
+   "material": "wood",
+   "pos": [
+    2.24,
+    0.63,
+    5.6
+   ],
+   "rotation": 0.0,
+   "size": [
+    1.0,
+    2.0,
+    0.2
+   ],
+   "type": "box"
+  }
+ ],
+ "schema": 1,
+ "size": [
+  7,
+  7,
+  16
+ ],
+ "structure": "house",
+ "tone": "gloomy"
+}

@@ -1,0 +1,636 @@
+{
+ "schema_version": 1,
+ "generated": "2026-11-21T22:58:43+11:00",
+ "count": 27,
+ "items": [
+  {
+   "id": "comic-5",
+   "kind": "comic",
+   "title": "Cloud",
+   "description": "A one-panel comic about the cloud.",
+   "created": "2026-11-21",
+   "image": "comics/comic-5.png",
+   "files": [
+    "comics/comic-5.png",
+    "comics/comic-5.svg"
+   ],
+   "topics": [
+    "cloud",
+    "rain",
+    "water"
+   ],
+   "quality": 0.223,
+   "cat_rating": 0.187,
+   "likes": 0,
+   "price": 4,
+   "for_sale": true,
+   "why": "I wondered what cloud and rain have in common"
+  },
+  {
+   "id": "story-10",
+   "kind": "story",
+   "title": "Rain",
+   "description": "A tiny 6-word story about rain.",
+   "created": "2026-11-21",
+   "image": "",
+   "files": [
+    "stories/story-10.md"
+   ],
+   "topics": [
+    "rain",
+    "precipitation",
+    "snow"
+   ],
+   "quality": 0.093,
+   "cat_rating": 0.059,
+   "likes": 0,
+   "price": 1,
+   "for_sale": true,
+   "why": "I can't stop thinking about rain"
+  },
+  {
+   "id": "comic-4",
+   "kind": "comic",
+   "title": "Seismometer",
+   "description": "A one-panel comic about the seismometer.",
+   "created": "2026-11-21",
+   "image": "comics/comic-4.png",
+   "files": [
+    "comics/comic-4.png",
+    "comics/comic-4.svg"
+   ],
+   "topics": [
+    "seismometer"
+   ],
+   "quality": 0.221,
+   "cat_rating": 0.184,
+   "likes": 0,
+   "price": 4,
+   "for_sale": true,
+   "why": "I just learned something about seismometer"
+  },
+  {
+   "id": "blueprint-9",
+   "kind": "blueprint",
+   "title": "My Aeroplane Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "created": "2026-11-20",
+   "image": "world/blueprint-9.svg",
+   "files": [
+    "world/blueprint-9.json",
+    "world/blueprint-9.svg"
+   ],
+   "topics": [
+    "aeroplane",
+    "bullet train",
+    "flight"
+   ],
+   "quality": 0.257,
+   "cat_rating": 0.23,
+   "likes": 0,
+   "price": 0,
+   "for_sale": false,
+   "why": "I really like aeroplane"
+  },
+  {
+   "id": "story-9",
+   "kind": "story",
+   "title": "Rain",
+   "description": "A tiny 6-word story about rain.",
+   "created": "2026-11-20",
+   "image": "",
+   "files": [
+    "stories/story-9.md"
+   ],
+   "topics": [
+    "rain"
+   ],
+   "quality": 0.104,
+   "cat_rating": 0.057,
+   "likes": 0,
+   "price": 1,
+   "for_sale": true,
+   "why": "I left it unfinished"
+  },
+  {
+   "id": "blueprint-8",
+   "kind": "blueprint",
+   "title": "My Hot Air Balloon Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "created": "2026-11-20",
+   "image": "world/blueprint-8.svg",
+   "files": [
+    "world/blueprint-8.json",
+    "world/blueprint-8.svg"
+   ],
+   "topics": [
+    "hot air balloon",
+    "molecule",
+    "air"
+   ],
+   "quality": 0.242,
+   "cat_rating": 0.22,
+   "likes": 0,
+   "price": 5,
+   "for_sale": true,
+   "why": "I really like hot air balloon"
+  },
+  {
+   "id": "comic-3",
+   "kind": "comic",
+   "title": "Moon",
+   "description": "A one-panel comic about the moon.",
+   "created": "2026-11-18",
+   "image": "comics/comic-3.png",
+   "files": [
+    "comics/comic-3.png",
+    "comics/comic-3.svg"
+   ],
+   "topics": [
+    "moon",
+    "solar system",
+    "space"
+   ],
+   "quality": 0.213,
+   "cat_rating": 0.161,
+   "likes": 1,
+   "price": 4,
+   "for_sale": true,
+   "why": "I really like moon"
+  },
+  {
+   "id": "blueprint-7",
+   "kind": "blueprint",
+   "title": "My Rain Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "created": "2026-11-18",
+   "image": "world/blueprint-7.svg",
+   "files": [
+    "world/blueprint-7.json",
+    "world/blueprint-7.svg"
+   ],
+   "topics": [
+    "rain",
+    "precipitation",
+    "rainbow"
+   ],
+   "quality": 0.231,
+   "cat_rating": 0.193,
+   "likes": 0,
+   "price": 5,
+   "for_sale": true,
+   "why": "I can't stop thinking about rain"
+  },
+  {
+   "id": "music-3",
+   "kind": "music",
+   "title": "Rain Plink",
+   "description": "A few wobbly plinks and meows about rain.",
+   "created": "2026-11-18",
+   "image": "",
+   "files": [
+    "music/music-3.mid",
+    "music/music-3.wav"
+   ],
+   "topics": [
+    "rain",
+    "tail",
+    "precipitation"
+   ],
+   "quality": 0.169,
+   "cat_rating": 0.136,
+   "likes": 0,
+   "price": 2,
+   "for_sale": true,
+   "why": "I wondered what rain and tail have in common"
+  },
+  {
+   "id": "blueprint-6",
+   "kind": "blueprint",
+   "title": "My Cloud Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "created": "2026-11-18",
+   "image": "world/blueprint-6.svg",
+   "files": [
+    "world/blueprint-6.json",
+    "world/blueprint-6.svg"
+   ],
+   "topics": [
+    "cloud",
+    "water",
+    "sky"
+   ],
+   "quality": 0.224,
+   "cat_rating": 0.185,
+   "likes": 0,
+   "price": 5,
+   "for_sale": true,
+   "why": "I really like cloud"
+  },
+  {
+   "id": "story-6",
+   "kind": "story",
+   "title": "Cloud",
+   "description": "A tiny 9-word story about the cloud.",
+   "created": "2026-11-17",
+   "image": "",
+   "files": [
+    "stories/story-6.md"
+   ],
+   "topics": [
+    "cloud",
+    "water",
+    "sky"
+   ],
+   "quality": 0.142,
+   "cat_rating": 0.108,
+   "likes": 0,
+   "price": 2,
+   "for_sale": true,
+   "why": "I really like cloud"
+  },
+  {
+   "id": "game-3",
+   "kind": "game",
+   "title": "Hot Air Balloon Click",
+   "description": "A moody click toy about hot air balloon.",
+   "created": "2026-11-17",
+   "image": "",
+   "files": [
+    "games/game-3.html"
+   ],
+   "topics": [
+    "hot air balloon",
+    "molecule",
+    "air"
+   ],
+   "quality": 0.163,
+   "cat_rating": 0.114,
+   "likes": 0,
+   "price": 4,
+   "for_sale": true,
+   "why": "I really like hot air balloon"
+  },
+  {
+   "id": "comic-2",
+   "kind": "comic",
+   "title": "Day",
+   "description": "A one-panel comic about the day.",
+   "created": "2026-11-17",
+   "image": "comics/comic-2.png",
+   "files": [
+    "comics/comic-2.png",
+    "comics/comic-2.svg"
+   ],
+   "topics": [
+    "day"
+   ],
+   "quality": 0.222,
+   "cat_rating": 0.215,
+   "likes": 0,
+   "price": 4,
+   "for_sale": true,
+   "why": "I just learned something about day"
+  },
+  {
+   "id": "story-5",
+   "kind": "story",
+   "title": "Tyrannosaurus",
+   "description": "A tiny 6-word story about the tyrannosaurus.",
+   "created": "2026-11-16",
+   "image": "",
+   "files": [
+    "stories/story-5.md"
+   ],
+   "topics": [
+    "tyrannosaurus",
+    "biology",
+    "earth"
+   ],
+   "quality": 0.314,
+   "cat_rating": 0.293,
+   "likes": 2,
+   "price": 3,
+   "for_sale": true,
+   "why": "I really like tyrannosaurus"
+  },
+  {
+   "id": "blueprint-5",
+   "kind": "blueprint",
+   "title": "My Water Vapor Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "created": "2026-11-16",
+   "image": "world/blueprint-5.svg",
+   "files": [
+    "world/blueprint-5.json",
+    "world/blueprint-5.svg"
+   ],
+   "topics": [
+    "water vapor"
+   ],
+   "quality": 0.244,
+   "cat_rating": 0.207,
+   "likes": 0,
+   "price": 5,
+   "for_sale": true,
+   "why": "I just learned something about water vapor"
+  },
+  {
+   "id": "music-2",
+   "kind": "music",
+   "title": "Mrrp Rain",
+   "description": "A few wobbly plinks and meows about rain.",
+   "created": "2026-11-16",
+   "image": "",
+   "files": [
+    "music/music-2.mid",
+    "music/music-2.wav"
+   ],
+   "topics": [
+    "rain",
+    "precipitation",
+    "rainbow"
+   ],
+   "quality": 0.13,
+   "cat_rating": 0.088,
+   "likes": 1,
+   "price": 2,
+   "for_sale": true,
+   "why": "I really like rain"
+  },
+  {
+   "id": "story-4",
+   "kind": "story",
+   "title": "Cat",
+   "description": "A tiny 6-word story about being a cat.",
+   "created": "2026-11-16",
+   "image": "",
+   "files": [
+    "stories/story-4.md"
+   ],
+   "topics": [
+    "cat",
+    "animal",
+    "pet"
+   ],
+   "quality": 0.117,
+   "cat_rating": 0.101,
+   "likes": 0,
+   "price": 2,
+   "for_sale": true,
+   "why": "I really like cat"
+  },
+  {
+   "id": "story-3",
+   "kind": "story",
+   "title": "Sydney",
+   "description": "A tiny 6-word story about Sydney.",
+   "created": "2026-11-15",
+   "image": "",
+   "files": [
+    "stories/story-3.md"
+   ],
+   "topics": [
+    "sydney"
+   ],
+   "quality": 0.181,
+   "cat_rating": 0.165,
+   "likes": 0,
+   "price": 1,
+   "for_sale": true,
+   "why": "I remember sydney"
+  },
+  {
+   "id": "game-2",
+   "kind": "game",
+   "title": "Boop Food Bowl!",
+   "description": "A moody click toy about my food bowl.",
+   "created": "2026-11-15",
+   "image": "",
+   "files": [
+    "games/game-2.html"
+   ],
+   "topics": [
+    "my food bowl"
+   ],
+   "quality": 0.148,
+   "cat_rating": 0.124,
+   "likes": 0,
+   "price": 2,
+   "for_sale": true,
+   "why": "I left it unfinished"
+  },
+  {
+   "id": "comic-1",
+   "kind": "comic",
+   "title": "Cat",
+   "description": "A one-panel comic about being a cat.",
+   "created": "2026-11-15",
+   "image": "comics/comic-1.png",
+   "files": [
+    "comics/comic-1.png",
+    "comics/comic-1.svg"
+   ],
+   "topics": [
+    "cat",
+    "tail",
+    "animal"
+   ],
+   "quality": 0.224,
+   "cat_rating": 0.168,
+   "likes": 0,
+   "price": 4,
+   "for_sale": true,
+   "why": "I wondered what cat and tail have in common"
+  },
+  {
+   "id": "story-2",
+   "kind": "story",
+   "title": "Fish",
+   "description": "A tiny 6-word story about the fish.",
+   "created": "2026-11-14",
+   "image": "",
+   "files": [
+    "stories/story-2.md"
+   ],
+   "topics": [
+    "fish"
+   ],
+   "quality": 0.176,
+   "cat_rating": 0.114,
+   "likes": 0,
+   "price": 1,
+   "for_sale": true,
+   "why": "I just learned something about fish"
+  },
+  {
+   "id": "blueprint-4",
+   "kind": "blueprint",
+   "title": "My Koala Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "created": "2026-11-13",
+   "image": "world/blueprint-4.svg",
+   "files": [
+    "world/blueprint-4.json",
+    "world/blueprint-4.svg"
+   ],
+   "topics": [
+    "koala",
+    "australia",
+    "animal"
+   ],
+   "quality": 0.253,
+   "cat_rating": 0.172,
+   "likes": 1,
+   "price": 4,
+   "for_sale": true,
+   "why": "I really like koala"
+  },
+  {
+   "id": "blueprint-3",
+   "kind": "blueprint",
+   "title": "My Bird Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "created": "2026-11-13",
+   "image": "world/blueprint-3.svg",
+   "files": [
+    "world/blueprint-3.json",
+    "world/blueprint-3.svg"
+   ],
+   "topics": [
+    "bird"
+   ],
+   "quality": 0.187,
+   "cat_rating": 0.114,
+   "likes": 0,
+   "price": 3,
+   "for_sale": true,
+   "why": "I left it unfinished"
+  },
+  {
+   "id": "art-1",
+   "kind": "art",
+   "title": "Rain",
+   "description": "A wobbly teal scribble of rain.",
+   "created": "2026-11-12",
+   "image": "art/art-1.png",
+   "files": [
+    "art/art-1.png",
+    "art/art-1.svg"
+   ],
+   "topics": [
+    "rain",
+    "bird",
+    "precipitation"
+   ],
+   "quality": 0.179,
+   "cat_rating": 0.115,
+   "likes": 2,
+   "price": 0,
+   "for_sale": false,
+   "why": "I wondered what rain and bird have in common"
+  },
+  {
+   "id": "story-1",
+   "kind": "story",
+   "title": "Frog",
+   "description": "A tiny 6-word story about the frog.",
+   "created": "2026-11-11",
+   "image": "",
+   "files": [
+    "stories/story-1.md"
+   ],
+   "topics": [
+    "frog",
+    "amphibian",
+    "animal"
+   ],
+   "quality": 0.171,
+   "cat_rating": 0.169,
+   "likes": 0,
+   "price": 1,
+   "for_sale": true,
+   "why": "I really like frog"
+  },
+  {
+   "id": "blueprint-2",
+   "kind": "blueprint",
+   "title": "My Sydney Harbour Bridge Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "created": "2026-11-11",
+   "image": "world/blueprint-2.svg",
+   "files": [
+    "world/blueprint-2.json",
+    "world/blueprint-2.svg"
+   ],
+   "topics": [
+    "sydney harbour bridge"
+   ],
+   "quality": 0.245,
+   "cat_rating": 0.218,
+   "likes": 1,
+   "price": 4,
+   "for_sale": true,
+   "why": "I remember sydney harbour bridge"
+  },
+  {
+   "id": "music-1",
+   "kind": "music",
+   "title": "Plink Plonk",
+   "description": "A few wobbly plinks and meows about clouds.",
+   "created": "2026-11-10",
+   "image": "",
+   "files": [
+    "music/music-1.mid",
+    "music/music-1.wav"
+   ],
+   "topics": [
+    "clouds"
+   ],
+   "quality": 0.198,
+   "cat_rating": 0.26,
+   "likes": 0,
+   "price": 1,
+   "for_sale": true,
+   "why": "look at the cloudy outside"
+  }
+ ],
+ "picks": [
+  {
+   "id": "comic-5",
+   "title": "Cloud",
+   "image": "comics/comic-5.png",
+   "note": "Anything with rain in it makes me purr."
+  },
+  {
+   "id": "art-1",
+   "title": "Rain",
+   "image": "art/art-1.png",
+   "note": "I can't stop thinking about rain."
+  },
+  {
+   "id": "comic-1",
+   "title": "Cat",
+   "image": "comics/comic-1.png",
+   "note": "My cat picture! It goes well on this wall."
+  },
+  {
+   "id": "comic-3",
+   "title": "Moon",
+   "image": "comics/comic-3.png",
+   "note": "I hung it so I can look at the moon every day."
+  },
+  {
+   "id": "comic-2",
+   "title": "Day",
+   "image": "comics/comic-2.png",
+   "note": "It reminds me of days."
+  },
+  {
+   "id": "comic-4",
+   "title": "Seismometer",
+   "image": "comics/comic-4.png",
+   "note": "My seismometer picture! It goes well on this wall."
+  }
+ ]
+}
