@@ -1,0 +1,42 @@
+{
+ "schema_version": 1,
+ "generated": "2026-11-29T02:03:37+11:00",
+ "coins": 16,
+ "earned": 67,
+ "spent": 51,
+ "saving_for": {
+  "id": "dream-balloon",
+  "label": "my big dream",
+  "target": 60,
+  "have": 16,
+  "progress": 0.267
+ },
+ "owned": [
+  {
+   "label": "Feather Wand",
+   "category": "toy",
+   "count": 1,
+   "in_use": false
+  },
+  {
+   "label": "Wind-up Toy Train",
+   "category": "toy",
+   "count": 1,
+   "in_use": false
+  }
+ ],
+ "bought": [
+  {
+   "at": "2026-11-23T05:55:58+11:00",
+   "label": "Wind-up Toy Train",
+   "price": 9
+  },
+  {
+   "at": "2026-11-11T00:28:15+11:00",
+   "label": "Feather Wand",
+   "price": 5
+  }
+ ],
+ "for_sale": 40,
+ "sold": 8
+}

@@ -1,0 +1,257 @@
+{
+ "schema_version": 1,
+ "generated": "2026-11-29T02:03:37+11:00",
+ "items": [
+  {
+   "at": "2026-11-29T02:01:22+11:00",
+   "kind": "did",
+   "text": "Had a long snooze in the basket."
+  },
+  {
+   "at": "2026-11-29T02:01:22+11:00",
+   "kind": "felt",
+   "text": "Bao is feeling sleepy."
+  },
+  {
+   "at": "2026-11-29T01:41:22+11:00",
+   "kind": "did",
+   "text": "Daydreamed about how cloud and bird might be connected (it remembered facts about boths)."
+  },
+  {
+   "at": "2026-11-29T01:21:22+11:00",
+   "kind": "did",
+   "text": "Zoomed over the sofa three times!"
+  },
+  {
+   "at": "2026-11-29T00:41:22+11:00",
+   "kind": "did",
+   "text": "Flicked its tail crossly and stared at nothing."
+  },
+  {
+   "at": "2026-11-29T00:21:22+11:00",
+   "kind": "did",
+   "text": "Had lunch."
+  },
+  {
+   "at": "2026-11-29T00:21:22+11:00",
+   "kind": "mind",
+   "text": "I wonder what pluto is all about."
+  },
+  {
+   "at": "2026-11-29T00:21:22+11:00",
+   "kind": "mind",
+   "text": "I keep thinking about something I read: Moons are natural satellites."
+  },
+  {
+   "at": "2026-11-29T00:21:22+11:00",
+   "kind": "felt",
+   "text": "Bao is feeling hungry."
+  },
+  {
+   "at": "2026-11-29T00:02:11+11:00",
+   "kind": "mind",
+   "text": "Lunar songs are good. I'd do it again."
+  },
+  {
+   "at": "2026-11-29T00:02:11+11:00",
+   "kind": "made",
+   "text": "Composed \"The Lunar Song\".",
+   "ref": "music-14"
+  },
+  {
+   "at": "2026-11-29T00:02:11+11:00",
+   "kind": "did",
+   "text": "Bao woke up and stretched."
+  },
+  {
+   "at": "2026-11-28T22:25:26+11:00",
+   "kind": "did",
+   "text": "Wrote a diary entry: Discovering Easter"
+  },
+  {
+   "at": "2026-11-28T22:25:26+11:00",
+   "kind": "noticed",
+   "text": "It's a clear night and 19 degrees in Sydney."
+  },
+  {
+   "at": "2026-11-28T22:25:26+11:00",
+   "kind": "did",
+   "text": "Bao curled up on the desk and fell asleep."
+  },
+  {
+   "at": "2026-11-28T22:05:26+11:00",
+   "kind": "did",
+   "text": "Re-read about moon in NASA's picture of the day (NASA Science)"
+  },
+  {
+   "at": "2026-11-28T21:48:23+11:00",
+   "kind": "did",
+   "text": "Had dinner."
+  },
+  {
+   "at": "2026-11-28T21:48:23+11:00",
+   "kind": "felt",
+   "text": "Bao is feeling bored."
+  },
+  {
+   "at": "2026-11-28T21:28:23+11:00",
+   "kind": "did",
+   "text": "Gave its paws a really thorough wash."
+  },
+  {
+   "at": "2026-11-28T21:28:23+11:00",
+   "kind": "noticed",
+   "text": "A big fluffy moth flew in and bumped around the lamp."
+  },
+  {
+   "at": "2026-11-28T21:28:23+11:00",
+   "kind": "felt",
+   "text": "Bao is feeling hungry."
+  },
+  {
+   "at": "2026-11-28T21:08:23+11:00",
+   "kind": "mind",
+   "text": "When I'm done, I'll eat, then read. My tummy is empty, but I really need to read and know everything about dark rain clouds next."
+  },
+  {
+   "at": "2026-11-28T21:08:23+11:00",
+   "kind": "mind",
+   "text": "I wonder what pluto is all about."
+  },
+  {
+   "at": "2026-11-28T21:08:23+11:00",
+   "kind": "mind",
+   "text": "I started reading about Natural satellite and ended up at Spheroid. Funny how one thing leads to another."
+  },
+  {
+   "at": "2026-11-28T21:08:23+11:00",
+   "kind": "noticed",
+   "text": "It's a stormy 22 degrees in Sydney, with thunder."
+  },
+  {
+   "at": "2026-11-28T20:28:28+11:00",
+   "kind": "did",
+   "text": "Had a long snooze under the bed."
+  },
+  {
+   "at": "2026-11-28T20:08:28+11:00",
+   "kind": "did",
+   "text": "Spotted a possum on the fence!."
+  },
+  {
+   "at": "2026-11-28T19:58:31+11:00",
+   "kind": "did",
+   "text": "Climb to the very top at The Sydney Acorn."
+  },
+  {
+   "at": "2026-11-28T19:38:31+11:00",
+   "kind": "did",
+   "text": "Pushed a pot plant leaf off the table. For science."
+  },
+  {
+   "at": "2026-11-28T19:18:31+11:00",
+   "kind": "did",
+   "text": "Had dinner."
+  },
+  {
+   "at": "2026-11-28T18:58:31+11:00",
+   "kind": "did",
+   "text": "Followed a reading trail: Natural satellite, then Planet, then Spheroid."
+  },
+  {
+   "at": "2026-11-28T18:58:31+11:00",
+   "kind": "did",
+   "text": "Read about spheroid in Simple Wikipedia (Spheroid)"
+  },
+  {
+   "at": "2026-11-28T18:58:31+11:00",
+   "kind": "noticed",
+   "text": "Learned something new about spheroids"
+  },
+  {
+   "at": "2026-11-28T18:58:31+11:00",
+   "kind": "noticed",
+   "text": "Noticed a new topic: spheroid"
+  },
+  {
+   "at": "2026-11-28T18:58:31+11:00",
+   "kind": "did",
+   "text": "Re-read about planet in Simple Wikipedia (Planet)"
+  },
+  {
+   "at": "2026-11-28T18:58:31+11:00",
+   "kind": "noticed",
+   "text": "Learned something new about lunars"
+  },
+  {
+   "at": "2026-11-28T18:58:31+11:00",
+   "kind": "did",
+   "text": "Read about lunar in Simple Wikipedia (Natural satellite)"
+  },
+  {
+   "at": "2026-11-28T18:58:31+11:00",
+   "kind": "noticed",
+   "text": "Learned something new about lunars"
+  },
+  {
+   "at": "2026-11-28T18:58:31+11:00",
+   "kind": "noticed",
+   "text": "Noticed new topics: natural satellite, astronomy"
+  },
+  {
+   "at": "2026-11-28T18:58:31+11:00",
+   "kind": "felt",
+   "text": "Bao is feeling hungry."
+  },
+  {
+   "at": "2026-11-28T18:38:31+11:00",
+   "kind": "mind",
+   "text": "When I'm done, I'll read, then eat. I need food and I really must figure out why storm clouds get so dark before rain falls."
+  },
+  {
+   "at": "2026-11-28T18:38:31+11:00",
+   "kind": "mind",
+   "text": "Why do clouds turn dark right before it starts raining?"
+  },
+  {
+   "at": "2026-11-28T18:38:31+11:00",
+   "kind": "mind",
+   "text": "Empty box is just sitting there. Nobody to chase me, no food in my bowl, and the sky is boring and clear. I need a storm."
+  },
+  {
+   "at": "2026-11-28T18:34:39+11:00",
+   "kind": "did",
+   "text": "Had a cat nap in the basket."
+  },
+  {
+   "at": "2026-11-28T17:34:39+11:00",
+   "kind": "did",
+   "text": "Had dinner."
+  },
+  {
+   "at": "2026-11-28T17:34:39+11:00",
+   "kind": "mind",
+   "text": "The Curious Cloud is still only 20% built. I should get back to it."
+  },
+  {
+   "at": "2026-11-28T17:34:39+11:00",
+   "kind": "mind",
+   "text": "Hasn't worked on The Curious Cloud for 5 days."
+  },
+  {
+   "at": "2026-11-28T17:34:39+11:00",
+   "kind": "noticed",
+   "text": "The kids next door blew bubbles over the fence."
+  },
+  {
+   "at": "2026-11-28T17:34:39+11:00",
+   "kind": "did",
+   "text": "Bao woke up early, full of beans."
+  },
+  {
+   "at": "2026-11-28T16:37:26+11:00",
+   "kind": "did",
+   "text": "Bao curled up on the rug and fell asleep."
+  }
+ ]
+}

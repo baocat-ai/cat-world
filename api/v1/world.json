@@ -1,0 +1,214 @@
+{
+ "schema_version": 2,
+ "generated": "2026-11-29T02:03:37+11:00",
+ "cat": {
+  "name": "Bao",
+  "look": {
+   "body": "#F28C28",
+   "belly": "#FFF1D6",
+   "outline": "#3B1F4A",
+   "ears": "#FF7A8A",
+   "eyes": "#1FA59A",
+   "tail_tip": "#3B1F4A"
+  },
+  "mood": "bored",
+  "energy": 0.736,
+  "mood_value": -0.298,
+  "doing": "sleeping",
+  "place": "room",
+  "asleep": false,
+  "wearing": [],
+  "activity_spot": "bed"
+ },
+ "time": {
+  "sydney_iso": "2026-11-29T02:03:37+11:00",
+  "part_of_day": "night",
+  "season": "spring",
+  "holiday": null,
+  "birthday_today": false
+ },
+ "weather": {
+  "kind": "clear",
+  "temp_c": 17.0
+ },
+ "decorations": [
+  "spring_flowers"
+ ],
+ "room": {
+  "items": [
+   {
+    "id": "feather_wand",
+    "kind": "toy:feather_wand",
+    "label": "Feather Wand"
+   },
+   {
+    "id": "toy_train",
+    "kind": "toy:toy_train",
+    "label": "Wind-up Toy Train"
+   }
+  ]
+ },
+ "gallery": {
+  "hung": [
+   {
+    "id": "comic-5",
+    "title": "Cloud",
+    "image": "comics/comic-5.png",
+    "note": "Anything with rain in it makes me purr."
+   },
+   {
+    "id": "comic-6",
+    "title": "Rain",
+    "image": "comics/comic-6.png",
+    "note": "I can't stop thinking about rain."
+   },
+   {
+    "id": "comic-3",
+    "title": "Moon",
+    "image": "comics/comic-3.png",
+    "note": "I hung it so I can look at the moon every day."
+   },
+   {
+    "id": "art-1",
+    "title": "Rain",
+    "image": "art/art-1.png",
+    "note": "Rain is my favourite thing to draw."
+   },
+   {
+    "id": "comic-1",
+    "title": "Cat",
+    "image": "comics/comic-1.png",
+    "note": "My cat picture! It goes well on this wall."
+   },
+   {
+    "id": "comic-7",
+    "title": "Light",
+    "image": "comics/comic-7.png",
+    "note": "My light picture! It goes well on this wall."
+   },
+   {
+    "id": "comic-2",
+    "title": "Day",
+    "image": "comics/comic-2.png",
+    "note": "It reminds me of days."
+   },
+   {
+    "id": "comic-4",
+    "title": "Seismometer",
+    "image": "comics/comic-4.png",
+    "note": "My seismometer picture! It goes well on this wall."
+   }
+  ]
+ },
+ "outside": {
+  "garden": [
+   {
+    "plant": "daisy",
+    "stage": "flower"
+   },
+   {
+    "plant": "sunflower",
+    "stage": "sprout"
+   },
+   {
+    "plant": "catnip",
+    "stage": "grown"
+   },
+   {
+    "plant": "tomato",
+    "stage": "seed"
+   }
+  ]
+ },
+ "places": [
+  {
+   "id": "room",
+   "kind": "room",
+   "name": "My room",
+   "built_by_cat": false,
+   "stage": "done",
+   "progress": 1.0
+  },
+  {
+   "id": "gallery",
+   "kind": "gallery",
+   "name": "My gallery",
+   "built_by_cat": false,
+   "stage": "done",
+   "progress": 1.0
+  },
+  {
+   "id": "outside",
+   "kind": "outside",
+   "name": "Outside",
+   "built_by_cat": false,
+   "stage": "done",
+   "progress": 1.0
+  },
+  {
+   "id": "treehouse",
+   "kind": "treehouse",
+   "name": "The Sydney Acorn",
+   "built_by_cat": true,
+   "stage": "done",
+   "progress": 1.0
+  },
+  {
+   "id": "weather_station",
+   "kind": "weather_station",
+   "name": "The Curious Cloud",
+   "built_by_cat": true,
+   "stage": "building",
+   "progress": 0.203
+  }
+ ],
+ "murals": [],
+ "spots": [
+  {
+   "place": "room",
+   "name": "the yummy food bowl"
+  },
+  {
+   "place": "room",
+   "name": "the cosy windowsill"
+  },
+  {
+   "place": "room",
+   "name": "the sleepy bed"
+  },
+  {
+   "place": "room",
+   "name": "the reading bookshelf corner"
+  },
+  {
+   "place": "gallery",
+   "name": "the rainy-day gallery bench"
+  },
+  {
+   "place": "treehouse",
+   "name": "the cosy hammock"
+  }
+ ],
+ "clock": {
+  "cat_day": 74,
+  "cat_hour": 14.319
+ },
+ "wish_items": [
+  {
+   "id": 1,
+   "thing": "a statue of me",
+   "model": "wishes/statue-of-me.glb",
+   "place": "island",
+   "near": "pond",
+   "scale": 1.6
+  },
+  {
+   "id": 2,
+   "thing": "a tree swing",
+   "model": "wishes/tree-swing.glb",
+   "place": "island",
+   "near": "",
+   "scale": 1.6
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "schema_version": 1,
+ "generated": "2026-11-29T02:03:37+11:00",
+ "name": "Bao",
+ "authored": {
+  "core": "A small round tangerine cat with strong opinions and a soft middle.",
+  "backstory": "It lived its first month in a lighthouse keeper's cottage. The first thing it remembers is the sound of a spoon in a teacup. It has a star on its forehead.",
+  "traits": [
+   "grumbles first and purrs later",
+   "nosy about everything, especially things behind doors",
+   "careful, and checks everything twice"
+  ],
+  "values": [
+   "making things",
+   "adventure",
+   "fairness"
+  ],
+  "fears": [
+   "the vacuum cleaner's big round eye",
+   "balloons, in case they pop"
+  ],
+  "quirks": [
+   "hums when it concentrates",
+   "talks to its reflection like an old friend"
+  ],
+  "voice": "short and to the point, a bit blunt; says 'dunno' when it doesn't know"
+ },
+ "added": [
+  {
+   "section": "quirks",
+   "line": "Acts like the desk belongs to it (it does). Deal with it.",
+   "night": "2026-11-13"
+  },
+  {
+   "section": "story",
+   "line": "I still think about the time I managed to save up for The Sydney Acorn.",
+   "night": "2026-11-14"
+  },
+  {
+   "section": "quirks",
+   "line": "Pretends every mistake was totally on purpose. So what.",
+   "night": "2026-11-14"
+  },
+  {
+   "section": "quirks",
+   "line": "Does a little happy dance before every meal. That's just me.",
+   "night": "2026-11-14"
+  },
+  {
+   "section": "story",
+   "line": "I got there in the end. I usually do.",
+   "night": "2026-11-15"
+  },
+  {
+   "section": "likes",
+   "line": "The cosy windowsill is mine. Everyone knows that.",
+   "night": "2026-11-16"
+  },
+  {
+   "section": "traits",
+   "line": "When I'm low I go and make blueprints.",
+   "night": "2026-11-16"
+  },
+  {
+   "section": "story",
+   "line": "I still think about the day a wish came true: a statue of me by the pond.",
+   "night": "2026-11-17"
+  },
+  {
+   "section": "likes",
+   "line": "I could read about islands all day.",
+   "night": "2026-11-20"
+  },
+  {
+   "section": "likes",
+   "line": "I like The Sydney Acorn. I keep going back.",
+   "night": "2026-11-20"
+  },
+  {
+   "section": "likes",
+   "line": "My spot: the reading bookshelf corner. It just feels right.",
+   "night": "2026-11-21"
+  },
+  {
+   "section": "traits",
+   "line": "Bad mood? Stories. Works every time.",
+   "night": "2026-11-22"
+  },
+  {
+   "section": "story",
+   "line": "People like my comics. Funny how that works.",
+   "night": "2026-11-22"
+  },
+  {
+   "section": "story",
+   "line": "Turns out people like my blueprints. Who knew?",
+   "night": "2026-11-23"
+  },
+  {
+   "section": "likes",
+   "line": "Inventions: the deep end, where it gets strange.",
+   "night": "2026-11-23"
+  },
+  {
+   "section": "traits",
+   "line": "When something flops, I have another go.",
+   "night": "2026-11-24"
+  },
+  {
+   "section": "traits",
+   "line": "Making games fixes a bad day. Mostly.",
+   "night": "2026-11-24"
+  },
+  {
+   "section": "likes",
+   "line": "The more I learn about mountains, the weirder it gets.",
+   "night": "2026-11-25"
+  }
+ ]
+}

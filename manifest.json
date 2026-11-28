@@ -1,0 +1,2840 @@
+{
+ "schema": 1,
+ "creations": [
+  {
+   "id": "music-14",
+   "kind": "music",
+   "title": "The Lunar Song",
+   "description": "A slow, gloomy tune about lunar.",
+   "subject": "lunar",
+   "topics": [
+    "lunar"
+   ],
+   "mood": "gloomy",
+   "skill": 0.06,
+   "techniques": [
+    "steady_beat"
+   ],
+   "quality": {
+    "overall": 0.307,
+    "craft": 0.341,
+    "originality": 0.7,
+    "theme": 0.874,
+    "effort": 0.762
+   },
+   "cat_rating": 0.279,
+   "details": {
+    "bpm": 64,
+    "key": "none",
+    "scale": "chromatic",
+    "seconds": 4.03,
+    "tone": "gloomy",
+    "structure": "tune",
+    "time_signature": "4/4",
+    "instruments": [
+     "beep"
+    ],
+    "voices": 1
+   },
+   "price": 4,
+   "for_sale": true,
+   "edition": 4,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "fact",
+    "mood"
+   ],
+   "why": "I just learned something about lunar",
+   "part_of_project": false,
+   "created": "2026-11-29",
+   "files": [
+    {
+     "path": "music/music-14.mid",
+     "format": "mid",
+     "size_bytes": 94
+    },
+    {
+     "path": "music/music-14.wav",
+     "format": "wav",
+     "size_bytes": 47773
+    }
+   ]
+  },
+  {
+   "id": "music-13",
+   "kind": "music",
+   "title": "Pitter-Patter Rain Song",
+   "description": "A slow, gloomy tune about rain.",
+   "subject": "rain",
+   "topics": [
+    "rain",
+    "precipitation",
+    "snow"
+   ],
+   "mood": "gloomy",
+   "skill": 0.054,
+   "techniques": [
+    "steady_beat"
+   ],
+   "quality": {
+    "overall": 0.252,
+    "craft": 0.312,
+    "originality": 0.417,
+    "theme": 0.734,
+    "effort": 0.589
+   },
+   "cat_rating": 0.222,
+   "details": {
+    "bpm": 74,
+    "key": "none",
+    "scale": "chromatic",
+    "seconds": 3.51,
+    "tone": "gloomy",
+    "structure": "tune",
+    "time_signature": "4/4",
+    "instruments": [
+     "beep"
+    ],
+    "voices": 1,
+    "sound_of": "rain"
+   },
+   "price": 3,
+   "for_sale": true,
+   "edition": 4,
+   "sold": 0,
+   "likes": 2,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I can't stop thinking about rain",
+   "part_of_project": false,
+   "created": "2026-11-28",
+   "files": [
+    {
+     "path": "music/music-13.mid",
+     "format": "mid",
+     "size_bytes": 103
+    },
+    {
+     "path": "music/music-13.wav",
+     "format": "wav",
+     "size_bytes": 42035
+    }
+   ]
+  },
+  {
+   "id": "game-9",
+   "kind": "game",
+   "title": "Boop Cloud!",
+   "description": "A gentle click toy about cloud.",
+   "subject": "cloud",
+   "topics": [
+    "cloud"
+   ],
+   "mood": "calm",
+   "skill": 0.039,
+   "techniques": [
+    "click_toy"
+   ],
+   "quality": {
+    "overall": 0.192,
+    "craft": 0.213,
+    "originality": 0.785,
+    "theme": 0.733,
+    "effort": 0.838
+   },
+   "cat_rating": 0.179,
+   "details": {
+    "template": "clicker",
+    "input": "mouse+touch",
+    "tone": "calm",
+    "levels": 1,
+    "parts": [
+     "click",
+     "wander"
+    ],
+    "difficulty": 0.55,
+    "theme": "weather"
+   },
+   "price": 5,
+   "for_sale": true,
+   "edition": 5,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "memory",
+    "mood"
+   ],
+   "why": "I remember cloud",
+   "part_of_project": false,
+   "created": "2026-11-28",
+   "files": [
+    {
+     "path": "games/game-9.html",
+     "format": "html",
+     "size_bytes": 21695
+    }
+   ]
+  },
+  {
+   "id": "story-15",
+   "kind": "story",
+   "title": "Moon",
+   "description": "A 42-word gloomy story about the cat and the moon.",
+   "subject": "moon",
+   "topics": [
+    "moon",
+    "sun",
+    "space"
+   ],
+   "mood": "gloomy",
+   "skill": 0.095,
+   "techniques": [
+    "beginning_middle_end"
+   ],
+   "quality": {
+    "overall": 0.325,
+    "craft": 0.367,
+    "originality": 0.7,
+    "theme": 0.85,
+    "effort": 0.669
+   },
+   "cat_rating": 0.287,
+   "details": {
+    "words": 42,
+    "form": "story",
+    "tone": "gloomy",
+    "chapters": 0,
+    "finished": true
+   },
+   "price": 3,
+   "for_sale": true,
+   "edition": 4,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I really like moon",
+   "part_of_project": false,
+   "created": "2026-11-28",
+   "files": [
+    {
+     "path": "stories/story-15.md",
+     "format": "md",
+     "size_bytes": 228
+    }
+   ]
+  },
+  {
+   "id": "game-8",
+   "kind": "game",
+   "title": "Bird Click",
+   "description": "A moody click toy about bird.",
+   "subject": "bird",
+   "topics": [
+    "bird",
+    "moon",
+    "aeroplane"
+   ],
+   "mood": "gloomy",
+   "skill": 0.034,
+   "techniques": [
+    "click_toy"
+   ],
+   "quality": {
+    "overall": 0.141,
+    "craft": 0.16,
+    "originality": 0.65,
+    "theme": 0.7,
+    "effort": 0.906
+   },
+   "cat_rating": 0.119,
+   "details": {
+    "template": "clicker",
+    "input": "mouse+touch",
+    "tone": "gloomy",
+    "levels": 1,
+    "parts": [
+     "click",
+     "wander"
+    ],
+    "difficulty": 0.09,
+    "theme": "space"
+   },
+   "price": 4,
+   "for_sale": true,
+   "edition": 4,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I really like bird",
+   "part_of_project": false,
+   "created": "2026-11-27",
+   "files": [
+    {
+     "path": "games/game-8.html",
+     "format": "html",
+     "size_bytes": 21701
+    }
+   ]
+  },
+  {
+   "id": "story-14",
+   "kind": "story",
+   "title": "Cloud",
+   "description": "A 45-word gloomy story about the cat and the cloud.",
+   "subject": "cloud",
+   "topics": [
+    "cloud"
+   ],
+   "mood": "gloomy",
+   "skill": 0.088,
+   "techniques": [
+    "beginning_middle_end"
+   ],
+   "quality": {
+    "overall": 0.348,
+    "craft": 0.39,
+    "originality": 0.647,
+    "theme": 1.0,
+    "effort": 0.611
+   },
+   "cat_rating": 0.305,
+   "details": {
+    "words": 45,
+    "form": "story",
+    "tone": "gloomy",
+    "chapters": 0,
+    "finished": true
+   },
+   "price": 3,
+   "for_sale": true,
+   "edition": 4,
+   "sold": 0,
+   "likes": 1,
+   "inspired_by": [
+    "fact",
+    "mood"
+   ],
+   "why": "I just learned something about cloud",
+   "part_of_project": false,
+   "created": "2026-11-27",
+   "files": [
+    {
+     "path": "stories/story-14.md",
+     "format": "md",
+     "size_bytes": 238
+    }
+   ]
+  },
+  {
+   "id": "story-13",
+   "kind": "story",
+   "title": "Aeroplane",
+   "description": "A 44-word gloomy story about the cat and the aeroplane.",
+   "subject": "aeroplane",
+   "topics": [
+    "aeroplane",
+    "bullet train",
+    "flight"
+   ],
+   "mood": "gloomy",
+   "skill": 0.082,
+   "techniques": [
+    "beginning_middle_end"
+   ],
+   "quality": {
+    "overall": 0.309,
+    "craft": 0.347,
+    "originality": 0.85,
+    "theme": 0.85,
+    "effort": 0.462
+   },
+   "cat_rating": 0.264,
+   "details": {
+    "words": 44,
+    "form": "story",
+    "tone": "gloomy",
+    "chapters": 0,
+    "finished": true
+   },
+   "price": 3,
+   "for_sale": true,
+   "edition": 4,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I really like aeroplane",
+   "part_of_project": false,
+   "created": "2026-11-26",
+   "files": [
+    {
+     "path": "stories/story-13.md",
+     "format": "md",
+     "size_bytes": 243
+    }
+   ]
+  },
+  {
+   "id": "music-11",
+   "kind": "music",
+   "title": "Mew Mew Song",
+   "description": "A few wobbly plinks about rain.",
+   "subject": "rain",
+   "topics": [
+    "rain"
+   ],
+   "mood": "gloomy",
+   "skill": 0.046,
+   "techniques": [
+    "plink"
+   ],
+   "quality": {
+    "overall": 0.121,
+    "craft": 0.154,
+    "originality": 0.284,
+    "theme": 0.634,
+    "effort": 0.76
+   },
+   "cat_rating": 0.091,
+   "details": {
+    "bpm": 61,
+    "key": "none",
+    "scale": "chromatic",
+    "seconds": 5.95,
+    "tone": "gloomy",
+    "structure": "plinks",
+    "time_signature": "4/4",
+    "instruments": [
+     "beep"
+    ],
+    "voices": 1,
+    "sound_of": "rain"
+   },
+   "price": 2,
+   "for_sale": true,
+   "edition": 3,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "memory",
+    "mood"
+   ],
+   "why": "I remember rain",
+   "part_of_project": false,
+   "created": "2026-11-26",
+   "files": [
+    {
+     "path": "music/music-11.mid",
+     "format": "mid",
+     "size_bytes": 108
+    },
+    {
+     "path": "music/music-11.wav",
+     "format": "wav",
+     "size_bytes": 68992
+    }
+   ]
+  },
+  {
+   "id": "blueprint-11",
+   "kind": "blueprint",
+   "title": "My Rain Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "subject": "rain",
+   "topics": [
+    "rain",
+    "precipitation",
+    "snow"
+   ],
+   "mood": "gloomy",
+   "skill": 0.048,
+   "techniques": [
+    "box_house"
+   ],
+   "quality": {
+    "overall": 0.187,
+    "craft": 0.246,
+    "originality": 0.0,
+    "theme": 0.75,
+    "effort": 0.833
+   },
+   "cat_rating": 0.146,
+   "details": {
+    "structure": "house",
+    "parts": 2,
+    "tone": "gloomy",
+    "size": [
+     7,
+     8,
+     16
+    ],
+    "decorations": [],
+    "metres": [
+     3.5,
+     4.0,
+     8.0
+    ]
+   },
+   "price": 4,
+   "for_sale": true,
+   "edition": 1,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I can't stop thinking about rain",
+   "part_of_project": false,
+   "created": "2026-11-26",
+   "files": [
+    {
+     "path": "world/blueprint-11.json",
+     "format": "json",
+     "size_bytes": 542
+    },
+    {
+     "path": "world/blueprint-11.svg",
+     "format": "svg",
+     "size_bytes": 993
+    }
+   ]
+  },
+  {
+   "id": "game-7",
+   "kind": "game",
+   "title": "Boop Moon!",
+   "description": "A moody click toy about moon.",
+   "subject": "moon",
+   "topics": [
+    "moon",
+    "space",
+    "sun"
+   ],
+   "mood": "gloomy",
+   "skill": 0.029,
+   "techniques": [
+    "click_toy"
+   ],
+   "quality": {
+    "overall": 0.14,
+    "craft": 0.16,
+    "originality": 0.7,
+    "theme": 0.7,
+    "effort": 0.802
+   },
+   "cat_rating": 0.099,
+   "details": {
+    "template": "clicker",
+    "input": "mouse+touch",
+    "tone": "gloomy",
+    "levels": 1,
+    "parts": [
+     "click",
+     "wander"
+    ],
+    "difficulty": 0.03,
+    "theme": "space"
+   },
+   "price": 4,
+   "for_sale": true,
+   "edition": 4,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I really like moon",
+   "part_of_project": false,
+   "created": "2026-11-25",
+   "files": [
+    {
+     "path": "games/game-7.html",
+     "format": "html",
+     "size_bytes": 21701
+    }
+   ]
+  },
+  {
+   "id": "comic-7",
+   "kind": "comic",
+   "title": "Light",
+   "description": "A one-panel comic about light.",
+   "subject": "light",
+   "topics": [
+    "light",
+    "rainbow",
+    "star"
+   ],
+   "mood": "gloomy",
+   "skill": 0.038,
+   "techniques": [
+    "single_panel"
+   ],
+   "quality": {
+    "overall": 0.209,
+    "craft": 0.233,
+    "originality": 0.7,
+    "theme": 0.85,
+    "effort": 0.776
+   },
+   "cat_rating": 0.145,
+   "details": {
+    "panels": 1,
+    "tone": "gloomy",
+    "gag": "single",
+    "speech_lines": 0,
+    "finished": true
+   },
+   "price": 4,
+   "for_sale": true,
+   "edition": 2,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "memory",
+    "mood"
+   ],
+   "why": "I remember light",
+   "part_of_project": false,
+   "created": "2026-11-25",
+   "files": [
+    {
+     "path": "comics/comic-7.png",
+     "format": "png",
+     "size_bytes": 46826
+    },
+    {
+     "path": "comics/comic-7.svg",
+     "format": "svg",
+     "size_bytes": 11449
+    }
+   ]
+  },
+  {
+   "id": "story-12",
+   "kind": "story",
+   "title": "Bird",
+   "description": "A tiny 9-word story about the bird.",
+   "subject": "bird",
+   "topics": [
+    "bird",
+    "moon",
+    "aeroplane"
+   ],
+   "mood": "gloomy",
+   "skill": 0.075,
+   "techniques": [
+    "one_liner"
+   ],
+   "quality": {
+    "overall": 0.144,
+    "craft": 0.157,
+    "originality": 0.7,
+    "theme": 1.0,
+    "effort": 0.777
+   },
+   "cat_rating": 0.084,
+   "details": {
+    "words": 9,
+    "form": "story",
+    "tone": "gloomy",
+    "chapters": 0,
+    "finished": true
+   },
+   "price": 2,
+   "for_sale": true,
+   "edition": 3,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I really like bird",
+   "part_of_project": false,
+   "created": "2026-11-25",
+   "files": [
+    {
+     "path": "stories/story-12.md",
+     "format": "md",
+     "size_bytes": 58
+    }
+   ]
+  },
+  {
+   "id": "blueprint-10",
+   "kind": "blueprint",
+   "title": "My Rain Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "subject": "rain",
+   "topics": [
+    "rain",
+    "precipitation",
+    "snow"
+   ],
+   "mood": "gloomy",
+   "skill": 0.044,
+   "techniques": [
+    "box_house"
+   ],
+   "quality": {
+    "overall": 0.245,
+    "craft": 0.306,
+    "originality": 0.259,
+    "theme": 0.75,
+    "effort": 0.781
+   },
+   "cat_rating": 0.19,
+   "details": {
+    "structure": "house",
+    "parts": 2,
+    "tone": "gloomy",
+    "size": [
+     6,
+     6,
+     16
+    ],
+    "decorations": [],
+    "metres": [
+     3.0,
+     3.0,
+     8.0
+    ]
+   },
+   "price": 5,
+   "for_sale": true,
+   "edition": 1,
+   "sold": 0,
+   "likes": 1,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I can't stop thinking about rain",
+   "part_of_project": false,
+   "created": "2026-11-24",
+   "files": [
+    {
+     "path": "world/blueprint-10.json",
+     "format": "json",
+     "size_bytes": 543
+    },
+    {
+     "path": "world/blueprint-10.svg",
+     "format": "svg",
+     "size_bytes": 997
+    }
+   ]
+  },
+  {
+   "id": "game-6",
+   "kind": "game",
+   "title": "Boop Hot Air Balloon!",
+   "description": "A moody click toy about hot air balloon.",
+   "subject": "hot air balloon",
+   "topics": [
+    "hot air balloon"
+   ],
+   "mood": "gloomy",
+   "skill": 0.025,
+   "techniques": [
+    "click_toy"
+   ],
+   "quality": {
+    "overall": 0.206,
+    "craft": 0.26,
+    "originality": 0.167,
+    "theme": 0.767,
+    "effort": 0.824
+   },
+   "cat_rating": 0.156,
+   "details": {
+    "template": "clicker",
+    "input": "mouse+touch",
+    "tone": "gloomy",
+    "levels": 1,
+    "parts": [
+     "click",
+     "wander"
+    ],
+    "difficulty": 0.28,
+    "theme": "party"
+   },
+   "price": 5,
+   "for_sale": true,
+   "edition": 5,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "mood"
+   ],
+   "why": "I left it unfinished",
+   "part_of_project": false,
+   "created": "2026-11-24",
+   "files": [
+    {
+     "path": "games/game-6.html",
+     "format": "html",
+     "size_bytes": 21713
+    }
+   ]
+  },
+  {
+   "id": "comic-6",
+   "kind": "comic",
+   "title": "Rain",
+   "description": "A one-panel comic about rain.",
+   "subject": "rain",
+   "topics": [
+    "rain",
+    "precipitation",
+    "snow"
+   ],
+   "mood": "gloomy",
+   "skill": 0.034,
+   "techniques": [
+    "single_panel"
+   ],
+   "quality": {
+    "overall": 0.212,
+    "craft": 0.244,
+    "originality": 0.65,
+    "theme": 0.85,
+    "effort": 0.606
+   },
+   "cat_rating": 0.163,
+   "details": {
+    "panels": 1,
+    "tone": "gloomy",
+    "gag": "single",
+    "speech_lines": 0,
+    "finished": true
+   },
+   "price": 3,
+   "for_sale": true,
+   "edition": 2,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I can't stop thinking about rain",
+   "part_of_project": false,
+   "created": "2026-11-23",
+   "files": [
+    {
+     "path": "comics/comic-6.png",
+     "format": "png",
+     "size_bytes": 51538
+    },
+    {
+     "path": "comics/comic-6.svg",
+     "format": "svg",
+     "size_bytes": 15284
+    }
+   ]
+  },
+  {
+   "id": "music-8",
+   "kind": "music",
+   "title": "Mrrp Hot Air Balloon",
+   "description": "A few wobbly plinks and meows about hot air balloon.",
+   "subject": "hot air balloon",
+   "topics": [
+    "hot air balloon"
+   ],
+   "mood": "gloomy",
+   "skill": 0.035,
+   "techniques": [
+    "plink"
+   ],
+   "quality": {
+    "overall": 0.144,
+    "craft": 0.184,
+    "originality": 0.167,
+    "theme": 0.734,
+    "effort": 0.775
+   },
+   "cat_rating": 0.12,
+   "details": {
+    "bpm": 68,
+    "key": "none",
+    "scale": "chromatic",
+    "seconds": 5.1,
+    "tone": "gloomy",
+    "structure": "plinks",
+    "time_signature": "4/4",
+    "instruments": [
+     "beep"
+    ],
+    "voices": 1,
+    "sound_of": "rain"
+   },
+   "price": 1,
+   "for_sale": true,
+   "edition": 3,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "mood"
+   ],
+   "why": "I left it unfinished",
+   "part_of_project": false,
+   "created": "2026-11-23",
+   "files": [
+    {
+     "path": "music/music-8.mid",
+     "format": "mid",
+     "size_bytes": 124
+    },
+    {
+     "path": "music/music-8.wav",
+     "format": "wav",
+     "size_bytes": 59615
+    }
+   ]
+  },
+  {
+   "id": "story-11",
+   "kind": "story",
+   "title": "Steam Engine",
+   "description": "A tiny 9-word story about the steam engine.",
+   "subject": "steam engine",
+   "topics": [
+    "steam engine"
+   ],
+   "mood": "gloomy",
+   "skill": 0.068,
+   "techniques": [
+    "one_liner"
+   ],
+   "quality": {
+    "overall": 0.115,
+    "craft": 0.124,
+    "originality": 0.7,
+    "theme": 1.0,
+    "effort": 0.775
+   },
+   "cat_rating": 0.069,
+   "details": {
+    "words": 9,
+    "form": "story",
+    "tone": "gloomy",
+    "chapters": 0,
+    "finished": true
+   },
+   "price": 1,
+   "for_sale": true,
+   "edition": 3,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "fact",
+    "mood"
+   ],
+   "why": "I just learned something about steam engine",
+   "part_of_project": false,
+   "created": "2026-11-23",
+   "files": [
+    {
+     "path": "stories/story-11.md",
+     "format": "md",
+     "size_bytes": 71
+    }
+   ]
+  },
+  {
+   "id": "game-4",
+   "kind": "game",
+   "title": "Boop Light!",
+   "description": "A gentle click toy about light.",
+   "subject": "light",
+   "topics": [
+    "light",
+    "rainbow",
+    "star"
+   ],
+   "mood": "calm",
+   "skill": 0.017,
+   "techniques": [
+    "click_toy"
+   ],
+   "quality": {
+    "overall": 0.211,
+    "craft": 0.236,
+    "originality": 0.8,
+    "theme": 0.7,
+    "effort": 0.816
+   },
+   "cat_rating": 0.195,
+   "details": {
+    "template": "clicker",
+    "input": "mouse+touch",
+    "tone": "calm",
+    "levels": 1,
+    "parts": [
+     "click",
+     "wander"
+    ],
+    "difficulty": 0.53,
+    "theme": "space"
+   },
+   "price": 5,
+   "for_sale": true,
+   "edition": 5,
+   "sold": 1,
+   "likes": 0,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I really like light",
+   "part_of_project": false,
+   "created": "2026-11-22",
+   "files": [
+    {
+     "path": "games/game-4.html",
+     "format": "html",
+     "size_bytes": 21699
+    }
+   ]
+  },
+  {
+   "id": "music-6",
+   "kind": "music",
+   "title": "Plink Plonk",
+   "description": "A few wobbly plinks and meows about rain.",
+   "subject": "rain",
+   "topics": [
+    "rain"
+   ],
+   "mood": "gloomy",
+   "skill": 0.029,
+   "techniques": [
+    "plink"
+   ],
+   "quality": {
+    "overall": 0.301,
+    "craft": 0.208,
+    "originality": 0.0,
+    "theme": 0.634,
+    "effort": 0.663
+   },
+   "cat_rating": 0.263,
+   "details": {
+    "bpm": 56,
+    "key": "none",
+    "scale": "chromatic",
+    "seconds": 6.87,
+    "tone": "gloomy",
+    "structure": "plinks",
+    "time_signature": "4/4",
+    "instruments": [
+     "beep"
+    ],
+    "voices": 1,
+    "sound_of": "rain"
+   },
+   "price": 4,
+   "for_sale": true,
+   "edition": 4,
+   "sold": 1,
+   "likes": 1,
+   "inspired_by": [
+    "mood",
+    "project"
+   ],
+   "why": "I love rain so much",
+   "part_of_project": true,
+   "created": "2026-11-22",
+   "files": [
+    {
+     "path": "music/music-6.mid",
+     "format": "mid",
+     "size_bytes": 107
+    },
+    {
+     "path": "music/music-6.wav",
+     "format": "wav",
+     "size_bytes": 79109
+    }
+   ]
+  },
+  {
+   "id": "comic-5",
+   "kind": "comic",
+   "title": "Cloud",
+   "description": "A one-panel comic about the cloud.",
+   "subject": "cloud",
+   "topics": [
+    "cloud",
+    "rain",
+    "water"
+   ],
+   "mood": "gloomy",
+   "skill": 0.029,
+   "techniques": [
+    "single_panel"
+   ],
+   "quality": {
+    "overall": 0.223,
+    "craft": 0.251,
+    "originality": 0.7,
+    "theme": 0.85,
+    "effort": 0.709
+   },
+   "cat_rating": 0.187,
+   "details": {
+    "panels": 1,
+    "tone": "gloomy",
+    "gag": "single",
+    "speech_lines": 0,
+    "finished": true
+   },
+   "price": 4,
+   "for_sale": true,
+   "edition": 2,
+   "sold": 1,
+   "likes": 1,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I wondered what cloud and rain have in common",
+   "part_of_project": false,
+   "created": "2026-11-21",
+   "files": [
+    {
+     "path": "comics/comic-5.png",
+     "format": "png",
+     "size_bytes": 46809
+    },
+    {
+     "path": "comics/comic-5.svg",
+     "format": "svg",
+     "size_bytes": 14734
+    }
+   ]
+  },
+  {
+   "id": "story-10",
+   "kind": "story",
+   "title": "Rain",
+   "description": "A tiny 6-word story about rain.",
+   "subject": "rain",
+   "topics": [
+    "rain",
+    "precipitation",
+    "snow"
+   ],
+   "mood": "gloomy",
+   "skill": 0.06,
+   "techniques": [
+    "one_liner"
+   ],
+   "quality": {
+    "overall": 0.093,
+    "craft": 0.113,
+    "originality": 0.167,
+    "theme": 1.0,
+    "effort": 0.803
+   },
+   "cat_rating": 0.059,
+   "details": {
+    "words": 6,
+    "form": "story",
+    "tone": "gloomy",
+    "chapters": 0,
+    "finished": true
+   },
+   "price": 1,
+   "for_sale": true,
+   "edition": 3,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I can't stop thinking about rain",
+   "part_of_project": false,
+   "created": "2026-11-21",
+   "files": [
+    {
+     "path": "stories/story-10.md",
+     "format": "md",
+     "size_bytes": 46
+    }
+   ]
+  },
+  {
+   "id": "comic-4",
+   "kind": "comic",
+   "title": "Seismometer",
+   "description": "A one-panel comic about the seismometer.",
+   "subject": "seismometer",
+   "topics": [
+    "seismometer"
+   ],
+   "mood": "gloomy",
+   "skill": 0.024,
+   "techniques": [
+    "single_panel"
+   ],
+   "quality": {
+    "overall": 0.221,
+    "craft": 0.243,
+    "originality": 0.7,
+    "theme": 0.85,
+    "effort": 0.853
+   },
+   "cat_rating": 0.184,
+   "details": {
+    "panels": 1,
+    "tone": "gloomy",
+    "gag": "single",
+    "speech_lines": 0,
+    "finished": true
+   },
+   "price": 3,
+   "for_sale": true,
+   "edition": 2,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "fact",
+    "mood"
+   ],
+   "why": "I just learned something about seismometer",
+   "part_of_project": false,
+   "created": "2026-11-21",
+   "files": [
+    {
+     "path": "comics/comic-4.png",
+     "format": "png",
+     "size_bytes": 39950
+    },
+    {
+     "path": "comics/comic-4.svg",
+     "format": "svg",
+     "size_bytes": 11477
+    }
+   ]
+  },
+  {
+   "id": "blueprint-9",
+   "kind": "blueprint",
+   "title": "My Aeroplane Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "subject": "aeroplane",
+   "topics": [
+    "aeroplane",
+    "bullet train",
+    "flight"
+   ],
+   "mood": "gloomy",
+   "skill": 0.039,
+   "techniques": [
+    "box_house"
+   ],
+   "quality": {
+    "overall": 0.257,
+    "craft": 0.29,
+    "originality": 0.7,
+    "theme": 0.75,
+    "effort": 0.81
+   },
+   "cat_rating": 0.23,
+   "details": {
+    "structure": "house",
+    "parts": 2,
+    "tone": "gloomy",
+    "size": [
+     6,
+     6,
+     16
+    ],
+    "decorations": [],
+    "metres": [
+     3.0,
+     3.0,
+     8.0
+    ]
+   },
+   "price": 0,
+   "for_sale": false,
+   "edition": 1,
+   "sold": 1,
+   "likes": 0,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I really like aeroplane",
+   "part_of_project": false,
+   "created": "2026-11-20",
+   "files": [
+    {
+     "path": "world/blueprint-9.json",
+     "format": "json",
+     "size_bytes": 548
+    },
+    {
+     "path": "world/blueprint-9.svg",
+     "format": "svg",
+     "size_bytes": 1007
+    }
+   ]
+  },
+  {
+   "id": "story-9",
+   "kind": "story",
+   "title": "Rain",
+   "description": "A tiny 6-word story about rain.",
+   "subject": "rain",
+   "topics": [
+    "rain"
+   ],
+   "mood": "gloomy",
+   "skill": 0.053,
+   "techniques": [
+    "one_liner"
+   ],
+   "quality": {
+    "overall": 0.104,
+    "craft": 0.132,
+    "originality": 0.0,
+    "theme": 1.0,
+    "effort": 0.69
+   },
+   "cat_rating": 0.057,
+   "details": {
+    "words": 6,
+    "form": "story",
+    "tone": "gloomy",
+    "chapters": 0,
+    "finished": true
+   },
+   "price": 1,
+   "for_sale": true,
+   "edition": 3,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "mood"
+   ],
+   "why": "I left it unfinished",
+   "part_of_project": false,
+   "created": "2026-11-20",
+   "files": [
+    {
+     "path": "stories/story-9.md",
+     "format": "md",
+     "size_bytes": 47
+    }
+   ]
+  },
+  {
+   "id": "blueprint-8",
+   "kind": "blueprint",
+   "title": "My Hot Air Balloon Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "subject": "hot air balloon",
+   "topics": [
+    "hot air balloon",
+    "molecule",
+    "air"
+   ],
+   "mood": "gloomy",
+   "skill": 0.034,
+   "techniques": [
+    "box_house"
+   ],
+   "quality": {
+    "overall": 0.242,
+    "craft": 0.273,
+    "originality": 0.7,
+    "theme": 0.75,
+    "effort": 0.834
+   },
+   "cat_rating": 0.22,
+   "details": {
+    "structure": "house",
+    "parts": 2,
+    "tone": "gloomy",
+    "size": [
+     6,
+     5,
+     16
+    ],
+    "decorations": [],
+    "metres": [
+     3.0,
+     2.5,
+     8.0
+    ]
+   },
+   "price": 4,
+   "for_sale": true,
+   "edition": 1,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I really like hot air balloon",
+   "part_of_project": false,
+   "created": "2026-11-20",
+   "files": [
+    {
+     "path": "world/blueprint-8.json",
+     "format": "json",
+     "size_bytes": 554
+    },
+    {
+     "path": "world/blueprint-8.svg",
+     "format": "svg",
+     "size_bytes": 1006
+    }
+   ]
+  },
+  {
+   "id": "comic-3",
+   "kind": "comic",
+   "title": "Moon",
+   "description": "A one-panel comic about the moon.",
+   "subject": "moon",
+   "topics": [
+    "moon",
+    "solar system",
+    "space"
+   ],
+   "mood": "gloomy",
+   "skill": 0.017,
+   "techniques": [
+    "single_panel"
+   ],
+   "quality": {
+    "overall": 0.213,
+    "craft": 0.236,
+    "originality": 0.724,
+    "theme": 0.85,
+    "effort": 0.79
+   },
+   "cat_rating": 0.161,
+   "details": {
+    "panels": 1,
+    "tone": "gloomy",
+    "gag": "single",
+    "speech_lines": 0,
+    "finished": true
+   },
+   "price": 3,
+   "for_sale": true,
+   "edition": 2,
+   "sold": 0,
+   "likes": 2,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I really like moon",
+   "part_of_project": false,
+   "created": "2026-11-18",
+   "files": [
+    {
+     "path": "comics/comic-3.png",
+     "format": "png",
+     "size_bytes": 53658
+    },
+    {
+     "path": "comics/comic-3.svg",
+     "format": "svg",
+     "size_bytes": 13086
+    }
+   ]
+  },
+  {
+   "id": "blueprint-7",
+   "kind": "blueprint",
+   "title": "My Rain Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "subject": "rain",
+   "topics": [
+    "rain",
+    "precipitation",
+    "rainbow"
+   ],
+   "mood": "gloomy",
+   "skill": 0.03,
+   "techniques": [
+    "box_house"
+   ],
+   "quality": {
+    "overall": 0.231,
+    "craft": 0.26,
+    "originality": 0.7,
+    "theme": 0.75,
+    "effort": 0.831
+   },
+   "cat_rating": 0.193,
+   "details": {
+    "structure": "house",
+    "parts": 2,
+    "tone": "gloomy",
+    "size": [
+     6,
+     5,
+     16
+    ],
+    "decorations": [],
+    "metres": [
+     3.0,
+     2.5,
+     8.0
+    ]
+   },
+   "price": 4,
+   "for_sale": true,
+   "edition": 1,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I can't stop thinking about rain",
+   "part_of_project": false,
+   "created": "2026-11-18",
+   "files": [
+    {
+     "path": "world/blueprint-7.json",
+     "format": "json",
+     "size_bytes": 542
+    },
+    {
+     "path": "world/blueprint-7.svg",
+     "format": "svg",
+     "size_bytes": 985
+    }
+   ]
+  },
+  {
+   "id": "music-3",
+   "kind": "music",
+   "title": "Rain Plink",
+   "description": "A few wobbly plinks and meows about rain.",
+   "subject": "rain",
+   "topics": [
+    "rain",
+    "tail",
+    "precipitation"
+   ],
+   "mood": "gloomy",
+   "skill": 0.014,
+   "techniques": [
+    "plink"
+   ],
+   "quality": {
+    "overall": 0.169,
+    "craft": 0.216,
+    "originality": 0.125,
+    "theme": 0.734,
+    "effort": 0.826
+   },
+   "cat_rating": 0.136,
+   "details": {
+    "bpm": 65,
+    "key": "none",
+    "scale": "chromatic",
+    "seconds": 6.66,
+    "tone": "gloomy",
+    "structure": "plinks",
+    "time_signature": "4/4",
+    "instruments": [
+     "beep"
+    ],
+    "voices": 1,
+    "sound_of": "rain"
+   },
+   "price": 1,
+   "for_sale": true,
+   "edition": 3,
+   "sold": 0,
+   "likes": 1,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I wondered what rain and tail have in common",
+   "part_of_project": false,
+   "created": "2026-11-18",
+   "files": [
+    {
+     "path": "music/music-3.mid",
+     "format": "mid",
+     "size_bytes": 114
+    },
+    {
+     "path": "music/music-3.wav",
+     "format": "wav",
+     "size_bytes": 76727
+    }
+   ]
+  },
+  {
+   "id": "blueprint-6",
+   "kind": "blueprint",
+   "title": "My Cloud Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "subject": "cloud",
+   "topics": [
+    "cloud",
+    "water",
+    "sky"
+   ],
+   "mood": "gloomy",
+   "skill": 0.025,
+   "techniques": [
+    "box_house"
+   ],
+   "quality": {
+    "overall": 0.224,
+    "craft": 0.253,
+    "originality": 0.7,
+    "theme": 0.75,
+    "effort": 0.834
+   },
+   "cat_rating": 0.185,
+   "details": {
+    "structure": "house",
+    "parts": 2,
+    "tone": "gloomy",
+    "size": [
+     7,
+     7,
+     16
+    ],
+    "decorations": [],
+    "metres": [
+     3.5,
+     3.5,
+     8.0
+    ]
+   },
+   "price": 4,
+   "for_sale": true,
+   "edition": 1,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I really like cloud",
+   "part_of_project": false,
+   "created": "2026-11-18",
+   "files": [
+    {
+     "path": "world/blueprint-6.json",
+     "format": "json",
+     "size_bytes": 543
+    },
+    {
+     "path": "world/blueprint-6.svg",
+     "format": "svg",
+     "size_bytes": 983
+    }
+   ]
+  },
+  {
+   "id": "story-6",
+   "kind": "story",
+   "title": "Cloud",
+   "description": "A tiny 9-word story about the cloud.",
+   "subject": "cloud",
+   "topics": [
+    "cloud",
+    "water",
+    "sky"
+   ],
+   "mood": "gloomy",
+   "skill": 0.039,
+   "techniques": [
+    "one_liner"
+   ],
+   "quality": {
+    "overall": 0.142,
+    "craft": 0.157,
+    "originality": 0.7,
+    "theme": 0.85,
+    "effort": 0.86
+   },
+   "cat_rating": 0.108,
+   "details": {
+    "words": 9,
+    "form": "story",
+    "tone": "gloomy",
+    "chapters": 0,
+    "finished": true
+   },
+   "price": 1,
+   "for_sale": true,
+   "edition": 3,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I really like cloud",
+   "part_of_project": false,
+   "created": "2026-11-17",
+   "files": [
+    {
+     "path": "stories/story-6.md",
+     "format": "md",
+     "size_bytes": 65
+    }
+   ]
+  },
+  {
+   "id": "game-3",
+   "kind": "game",
+   "title": "Hot Air Balloon Click",
+   "description": "A moody click toy about hot air balloon.",
+   "subject": "hot air balloon",
+   "topics": [
+    "hot air balloon",
+    "molecule",
+    "air"
+   ],
+   "mood": "gloomy",
+   "skill": 0.01,
+   "techniques": [
+    "click_toy"
+   ],
+   "quality": {
+    "overall": 0.163,
+    "craft": 0.183,
+    "originality": 0.7,
+    "theme": 0.767,
+    "effort": 0.79
+   },
+   "cat_rating": 0.114,
+   "details": {
+    "template": "clicker",
+    "input": "mouse+touch",
+    "tone": "gloomy",
+    "levels": 1,
+    "parts": [
+     "click",
+     "wander"
+    ],
+    "difficulty": 0.14,
+    "theme": "party"
+   },
+   "price": 2,
+   "for_sale": true,
+   "edition": 4,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I really like hot air balloon",
+   "part_of_project": false,
+   "created": "2026-11-17",
+   "files": [
+    {
+     "path": "games/game-3.html",
+     "format": "html",
+     "size_bytes": 21721
+    }
+   ]
+  },
+  {
+   "id": "comic-2",
+   "kind": "comic",
+   "title": "Day",
+   "description": "A one-panel comic about the day.",
+   "subject": "day",
+   "topics": [
+    "day"
+   ],
+   "mood": "wild",
+   "skill": 0.009,
+   "techniques": [
+    "single_panel"
+   ],
+   "quality": {
+    "overall": 0.222,
+    "craft": 0.24,
+    "originality": 0.8,
+    "theme": 0.85,
+    "effort": 0.855
+   },
+   "cat_rating": 0.215,
+   "details": {
+    "panels": 1,
+    "tone": "wild",
+    "gag": "single",
+    "speech_lines": 0,
+    "finished": true
+   },
+   "price": 2,
+   "for_sale": true,
+   "edition": 2,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "fact",
+    "mood"
+   ],
+   "why": "I just learned something about day",
+   "part_of_project": false,
+   "created": "2026-11-17",
+   "files": [
+    {
+     "path": "comics/comic-2.png",
+     "format": "png",
+     "size_bytes": 46219
+    },
+    {
+     "path": "comics/comic-2.svg",
+     "format": "svg",
+     "size_bytes": 13034
+    }
+   ]
+  },
+  {
+   "id": "story-5",
+   "kind": "story",
+   "title": "Tyrannosaurus",
+   "description": "A tiny 6-word story about the tyrannosaurus.",
+   "subject": "tyrannosaurus",
+   "topics": [
+    "tyrannosaurus",
+    "biology",
+    "earth"
+   ],
+   "mood": "gloomy",
+   "skill": 0.031,
+   "techniques": [
+    "one_liner"
+   ],
+   "quality": {
+    "overall": 0.314,
+    "craft": 0.346,
+    "originality": 0.746,
+    "theme": 0.85,
+    "effort": 0.795
+   },
+   "cat_rating": 0.293,
+   "details": {
+    "words": 6,
+    "form": "story",
+    "tone": "gloomy",
+    "chapters": 0,
+    "finished": true
+   },
+   "price": 1,
+   "for_sale": true,
+   "edition": 4,
+   "sold": 0,
+   "likes": 2,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I really like tyrannosaurus",
+   "part_of_project": false,
+   "created": "2026-11-16",
+   "files": [
+    {
+     "path": "stories/story-5.md",
+     "format": "md",
+     "size_bytes": 73
+    }
+   ]
+  },
+  {
+   "id": "blueprint-5",
+   "kind": "blueprint",
+   "title": "My Water Vapor Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "subject": "water vapor",
+   "topics": [
+    "water vapor"
+   ],
+   "mood": "gloomy",
+   "skill": 0.021,
+   "techniques": [
+    "box_house"
+   ],
+   "quality": {
+    "overall": 0.244,
+    "craft": 0.279,
+    "originality": 0.7,
+    "theme": 0.75,
+    "effort": 0.73
+   },
+   "cat_rating": 0.207,
+   "details": {
+    "structure": "house",
+    "parts": 2,
+    "tone": "gloomy",
+    "size": [
+     6,
+     7,
+     16
+    ],
+    "decorations": [],
+    "metres": [
+     3.0,
+     3.5,
+     8.0
+    ]
+   },
+   "price": 3,
+   "for_sale": true,
+   "edition": 1,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "fact",
+    "mood"
+   ],
+   "why": "I just learned something about water vapor",
+   "part_of_project": false,
+   "created": "2026-11-16",
+   "files": [
+    {
+     "path": "world/blueprint-5.json",
+     "format": "json",
+     "size_bytes": 549
+    },
+    {
+     "path": "world/blueprint-5.svg",
+     "format": "svg",
+     "size_bytes": 985
+    }
+   ]
+  },
+  {
+   "id": "music-2",
+   "kind": "music",
+   "title": "Mrrp Rain",
+   "description": "A few wobbly plinks and meows about rain.",
+   "subject": "rain",
+   "topics": [
+    "rain",
+    "precipitation",
+    "rainbow"
+   ],
+   "mood": "gloomy",
+   "skill": 0.007,
+   "techniques": [
+    "plink"
+   ],
+   "quality": {
+    "overall": 0.13,
+    "craft": 0.144,
+    "originality": 0.8,
+    "theme": 0.734,
+    "effort": 0.809
+   },
+   "cat_rating": 0.088,
+   "details": {
+    "bpm": 74,
+    "key": "none",
+    "scale": "chromatic",
+    "seconds": 5.73,
+    "tone": "gloomy",
+    "structure": "plinks",
+    "time_signature": "4/4",
+    "instruments": [
+     "beep"
+    ],
+    "voices": 1,
+    "sound_of": "rain"
+   },
+   "price": 2,
+   "for_sale": true,
+   "edition": 3,
+   "sold": 1,
+   "likes": 1,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I really like rain",
+   "part_of_project": false,
+   "created": "2026-11-16",
+   "files": [
+    {
+     "path": "music/music-2.mid",
+     "format": "mid",
+     "size_bytes": 113
+    },
+    {
+     "path": "music/music-2.wav",
+     "format": "wav",
+     "size_bytes": 66526
+    }
+   ]
+  },
+  {
+   "id": "story-4",
+   "kind": "story",
+   "title": "Cat",
+   "description": "A tiny 6-word story about being a cat.",
+   "subject": "cat",
+   "topics": [
+    "cat",
+    "animal",
+    "pet"
+   ],
+   "mood": "wild",
+   "skill": 0.026,
+   "techniques": [
+    "one_liner"
+   ],
+   "quality": {
+    "overall": 0.117,
+    "craft": 0.124,
+    "originality": 0.788,
+    "theme": 1.0,
+    "effort": 0.812
+   },
+   "cat_rating": 0.101,
+   "details": {
+    "words": 6,
+    "form": "story",
+    "tone": "wild",
+    "chapters": 0,
+    "finished": true
+   },
+   "price": 1,
+   "for_sale": true,
+   "edition": 3,
+   "sold": 0,
+   "likes": 1,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I really like cat",
+   "part_of_project": false,
+   "created": "2026-11-16",
+   "files": [
+    {
+     "path": "stories/story-4.md",
+     "format": "md",
+     "size_bytes": 46
+    }
+   ]
+  },
+  {
+   "id": "story-3",
+   "kind": "story",
+   "title": "Sydney",
+   "description": "A tiny 6-word story about sydney.",
+   "subject": "sydney",
+   "topics": [
+    "sydney"
+   ],
+   "mood": "calm",
+   "skill": 0.021,
+   "techniques": [
+    "one_liner"
+   ],
+   "quality": {
+    "overall": 0.181,
+    "craft": 0.203,
+    "originality": 0.724,
+    "theme": 0.85,
+    "effort": 0.695
+   },
+   "cat_rating": 0.165,
+   "details": {
+    "words": 6,
+    "form": "story",
+    "tone": "calm",
+    "chapters": 0,
+    "finished": true
+   },
+   "price": 1,
+   "for_sale": true,
+   "edition": 3,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "memory",
+    "mood"
+   ],
+   "why": "I remember sydney",
+   "part_of_project": false,
+   "created": "2026-11-15",
+   "files": [
+    {
+     "path": "stories/story-3.md",
+     "format": "md",
+     "size_bytes": 53
+    }
+   ]
+  },
+  {
+   "id": "game-2",
+   "kind": "game",
+   "title": "Boop Food Bowl!",
+   "description": "A moody click toy about my food bowl.",
+   "subject": "my food bowl",
+   "topics": [
+    "my food bowl"
+   ],
+   "mood": "gloomy",
+   "skill": 0.003,
+   "techniques": [
+    "click_toy"
+   ],
+   "quality": {
+    "overall": 0.148,
+    "craft": 0.199,
+    "originality": 0.0,
+    "theme": 0.74,
+    "effort": 0.676
+   },
+   "cat_rating": 0.124,
+   "details": {
+    "template": "clicker",
+    "input": "mouse+touch",
+    "tone": "gloomy",
+    "levels": 1,
+    "parts": [
+     "click",
+     "wander"
+    ],
+    "difficulty": 0.63,
+    "theme": "food"
+   },
+   "price": 1,
+   "for_sale": true,
+   "edition": 4,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "mood"
+   ],
+   "why": "I left it unfinished",
+   "part_of_project": false,
+   "created": "2026-11-15",
+   "files": [
+    {
+     "path": "games/game-2.html",
+     "format": "html",
+     "size_bytes": 21708
+    }
+   ]
+  },
+  {
+   "id": "comic-1",
+   "kind": "comic",
+   "title": "Cat",
+   "description": "A one-panel comic about being a cat.",
+   "subject": "cat",
+   "topics": [
+    "cat",
+    "tail",
+    "animal"
+   ],
+   "mood": "gloomy",
+   "skill": 0.002,
+   "techniques": [
+    "single_panel"
+   ],
+   "quality": {
+    "overall": 0.224,
+    "craft": 0.24,
+    "originality": 0.9,
+    "theme": 0.85,
+    "effort": 0.751
+   },
+   "cat_rating": 0.168,
+   "details": {
+    "panels": 1,
+    "tone": "gloomy",
+    "gag": "single",
+    "speech_lines": 0,
+    "finished": true
+   },
+   "price": 0,
+   "for_sale": false,
+   "edition": 2,
+   "sold": 2,
+   "likes": 0,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I wondered what cat and tail have in common",
+   "part_of_project": false,
+   "created": "2026-11-15",
+   "files": [
+    {
+     "path": "comics/comic-1.png",
+     "format": "png",
+     "size_bytes": 54519
+    },
+    {
+     "path": "comics/comic-1.svg",
+     "format": "svg",
+     "size_bytes": 18081
+    }
+   ]
+  },
+  {
+   "id": "story-2",
+   "kind": "story",
+   "title": "Fish",
+   "description": "A tiny 6-word story about the fish.",
+   "subject": "fish",
+   "topics": [
+    "fish"
+   ],
+   "mood": "gloomy",
+   "skill": 0.01,
+   "techniques": [
+    "one_liner"
+   ],
+   "quality": {
+    "overall": 0.176,
+    "craft": 0.19,
+    "originality": 0.8,
+    "theme": 1.0,
+    "effort": 0.685
+   },
+   "cat_rating": 0.114,
+   "details": {
+    "words": 6,
+    "form": "story",
+    "tone": "gloomy",
+    "chapters": 0,
+    "finished": true
+   },
+   "price": 1,
+   "for_sale": true,
+   "edition": 3,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "fact",
+    "mood"
+   ],
+   "why": "I just learned something about fish",
+   "part_of_project": false,
+   "created": "2026-11-14",
+   "files": [
+    {
+     "path": "stories/story-2.md",
+     "format": "md",
+     "size_bytes": 47
+    }
+   ]
+  },
+  {
+   "id": "blueprint-4",
+   "kind": "blueprint",
+   "title": "My Koala Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "subject": "koala",
+   "topics": [
+    "koala",
+    "australia",
+    "animal"
+   ],
+   "mood": "gloomy",
+   "skill": 0.017,
+   "techniques": [
+    "box_house"
+   ],
+   "quality": {
+    "overall": 0.253,
+    "craft": 0.297,
+    "originality": 0.7,
+    "theme": 0.75,
+    "effort": 0.51
+   },
+   "cat_rating": 0.172,
+   "details": {
+    "structure": "house",
+    "parts": 2,
+    "tone": "gloomy",
+    "size": [
+     6,
+     5,
+     16
+    ],
+    "decorations": [],
+    "metres": [
+     3.0,
+     2.5,
+     8.0
+    ]
+   },
+   "price": 3,
+   "for_sale": true,
+   "edition": 1,
+   "sold": 0,
+   "likes": 1,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I really like koala",
+   "part_of_project": false,
+   "created": "2026-11-13",
+   "files": [
+    {
+     "path": "world/blueprint-4.json",
+     "format": "json",
+     "size_bytes": 543
+    },
+    {
+     "path": "world/blueprint-4.svg",
+     "format": "svg",
+     "size_bytes": 949
+    }
+   ]
+  },
+  {
+   "id": "blueprint-3",
+   "kind": "blueprint",
+   "title": "My Bird Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "subject": "bird",
+   "topics": [
+    "bird"
+   ],
+   "mood": "gloomy",
+   "skill": 0.011,
+   "techniques": [
+    "box_house"
+   ],
+   "quality": {
+    "overall": 0.187,
+    "craft": 0.233,
+    "originality": 0.325,
+    "theme": 0.75,
+    "effort": 0.664
+   },
+   "cat_rating": 0.114,
+   "details": {
+    "structure": "house",
+    "parts": 2,
+    "tone": "gloomy",
+    "size": [
+     6,
+     6,
+     16
+    ],
+    "decorations": [],
+    "metres": [
+     3.0,
+     3.0,
+     8.0
+    ]
+   },
+   "price": 2,
+   "for_sale": true,
+   "edition": 1,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "mood"
+   ],
+   "why": "I left it unfinished",
+   "part_of_project": false,
+   "created": "2026-11-13",
+   "files": [
+    {
+     "path": "world/blueprint-3.json",
+     "format": "json",
+     "size_bytes": 544
+    },
+    {
+     "path": "world/blueprint-3.svg",
+     "format": "svg",
+     "size_bytes": 997
+    }
+   ]
+  },
+  {
+   "id": "art-1",
+   "kind": "art",
+   "title": "Rain",
+   "description": "A wobbly teal scribble of rain.",
+   "subject": "rain",
+   "topics": [
+    "rain",
+    "bird",
+    "precipitation"
+   ],
+   "mood": "gloomy",
+   "skill": 0.002,
+   "techniques": [
+    "scribble"
+   ],
+   "quality": {
+    "overall": 0.179,
+    "craft": 0.191,
+    "originality": 0.94,
+    "theme": 0.865,
+    "effort": 0.705
+   },
+   "cat_rating": 0.115,
+   "details": {
+    "width": 512,
+    "height": 512,
+    "tone": "gloomy",
+    "medium": "scribble",
+    "motif": "known",
+    "style_genes": [
+     0.284,
+     0.373,
+     0.365,
+     0.452,
+     0.311
+    ],
+    "look": [
+     0.5,
+     0.011,
+     0.894,
+     0.146,
+     0.083,
+     0.216,
+     0.286,
+     0.956
+    ],
+    "png_size": 384,
+    "planner": "own"
+   },
+   "price": 0,
+   "for_sale": false,
+   "edition": 1,
+   "sold": 1,
+   "likes": 2,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I wondered what rain and bird have in common",
+   "part_of_project": false,
+   "created": "2026-11-12",
+   "files": [
+    {
+     "path": "art/art-1.png",
+     "format": "png",
+     "size_bytes": 6124
+    },
+    {
+     "path": "art/art-1.svg",
+     "format": "svg",
+     "size_bytes": 1967
+    }
+   ]
+  },
+  {
+   "id": "story-1",
+   "kind": "story",
+   "title": "Frog",
+   "description": "A tiny 6-word story about the frog.",
+   "subject": "frog",
+   "topics": [
+    "frog",
+    "amphibian",
+    "animal"
+   ],
+   "mood": "calm",
+   "skill": 0.001,
+   "techniques": [
+    "one_liner"
+   ],
+   "quality": {
+    "overall": 0.171,
+    "craft": 0.182,
+    "originality": 0.9,
+    "theme": 0.85,
+    "effort": 0.848
+   },
+   "cat_rating": 0.169,
+   "details": {
+    "words": 6,
+    "form": "story",
+    "tone": "calm",
+    "chapters": 0,
+    "finished": true
+   },
+   "price": 0,
+   "for_sale": false,
+   "edition": 3,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "interest",
+    "mood"
+   ],
+   "why": "I really like frog",
+   "part_of_project": false,
+   "created": "2026-11-11",
+   "files": [
+    {
+     "path": "stories/story-1.md",
+     "format": "md",
+     "size_bytes": 47
+    }
+   ]
+  },
+  {
+   "id": "blueprint-2",
+   "kind": "blueprint",
+   "title": "My Sydney Harbour Bridge Box House",
+   "description": "A house built mostly of stone, made of 2 parts.",
+   "subject": "sydney harbour bridge",
+   "topics": [
+    "sydney harbour bridge"
+   ],
+   "mood": "gloomy",
+   "skill": 0.004,
+   "techniques": [
+    "box_house"
+   ],
+   "quality": {
+    "overall": 0.245,
+    "craft": 0.27,
+    "originality": 0.8,
+    "theme": 0.75,
+    "effort": 0.855
+   },
+   "cat_rating": 0.218,
+   "details": {
+    "structure": "house",
+    "parts": 2,
+    "tone": "gloomy",
+    "size": [
+     6,
+     6,
+     16
+    ],
+    "decorations": [],
+    "metres": [
+     3.0,
+     3.0,
+     8.0
+    ]
+   },
+   "price": 0,
+   "for_sale": false,
+   "edition": 1,
+   "sold": 0,
+   "likes": 2,
+   "inspired_by": [
+    "memory",
+    "mood"
+   ],
+   "why": "I remember sydney harbour bridge",
+   "part_of_project": false,
+   "created": "2026-11-11",
+   "files": [
+    {
+     "path": "world/blueprint-2.json",
+     "format": "json",
+     "size_bytes": 560
+    },
+    {
+     "path": "world/blueprint-2.svg",
+     "format": "svg",
+     "size_bytes": 1031
+    }
+   ]
+  },
+  {
+   "id": "music-1",
+   "kind": "music",
+   "title": "Plink Plonk",
+   "description": "A few wobbly plinks and meows about clouds.",
+   "subject": "clouds",
+   "topics": [
+    "clouds"
+   ],
+   "mood": "wild",
+   "skill": 0.0,
+   "techniques": [
+    "plink"
+   ],
+   "quality": {
+    "overall": 0.198,
+    "craft": 0.214,
+    "originality": 0.9,
+    "theme": 0.634,
+    "effort": 1.0
+   },
+   "cat_rating": 0.26,
+   "details": {
+    "bpm": 137,
+    "key": "none",
+    "scale": "chromatic",
+    "seconds": 4.36,
+    "tone": "wild",
+    "structure": "plinks",
+    "time_signature": "4/4",
+    "instruments": [
+     "beep"
+    ],
+    "voices": 1,
+    "sound_of": "rain"
+   },
+   "price": 0,
+   "for_sale": false,
+   "edition": 3,
+   "sold": 0,
+   "likes": 0,
+   "inspired_by": [
+    "mood",
+    "weather"
+   ],
+   "why": "look at the cloudy outside",
+   "part_of_project": false,
+   "created": "2026-11-10",
+   "files": [
+    {
+     "path": "music/music-1.mid",
+     "format": "mid",
+     "size_bytes": 123
+    },
+    {
+     "path": "music/music-1.wav",
+     "format": "wav",
+     "size_bytes": 51404
+    }
+   ]
+  }
+ ],
+ "diary": [
+  {
+   "day": "2026-11-28",
+   "title": "Discovering Easter",
+   "file": "diary/2026-11-28.md",
+   "mood": "bored"
+  },
+  {
+   "day": "2026-11-27",
+   "title": "My best story yet",
+   "file": "diary/2026-11-27.md",
+   "mood": "sleepy"
+  },
+  {
+   "day": "2026-11-26",
+   "title": "A proud day",
+   "file": "diary/2026-11-26.md",
+   "mood": "grumpy"
+  },
+  {
+   "day": "2026-11-25",
+   "title": "A proud day",
+   "file": "diary/2026-11-25.md",
+   "mood": "grumpy"
+  },
+  {
+   "day": "2026-11-24",
+   "title": "Discovering deserts",
+   "file": "diary/2026-11-24.md",
+   "mood": "sleepy"
+  },
+  {
+   "day": "2026-11-23",
+   "title": "Discovering writing",
+   "file": "diary/2026-11-23.md",
+   "mood": "grumpy"
+  },
+  {
+   "day": "2026-11-22",
+   "title": "I finished my big project!",
+   "file": "diary/2026-11-22.md",
+   "mood": "grumpy"
+  },
+  {
+   "day": "2026-11-21",
+   "title": "A proud day",
+   "file": "diary/2026-11-21.md",
+   "mood": "grumpy"
+  },
+  {
+   "day": "2026-11-20",
+   "title": "A proud day",
+   "file": "diary/2026-11-20.md",
+   "mood": "grumpy"
+  },
+  {
+   "day": "2026-11-19",
+   "title": "Discovering the atmosphere",
+   "file": "diary/2026-11-19.md",
+   "mood": "grumpy"
+  },
+  {
+   "day": "2026-11-18",
+   "title": "My best tune yet",
+   "file": "diary/2026-11-18.md",
+   "mood": "sleepy"
+  },
+  {
+   "day": "2026-11-17",
+   "title": "Leonid meteor shower",
+   "file": "diary/2026-11-17.md",
+   "mood": "bored"
+  },
+  {
+   "day": "2026-11-16",
+   "title": "My best story yet",
+   "file": "diary/2026-11-16.md",
+   "mood": "grumpy"
+  },
+  {
+   "day": "2026-11-15",
+   "title": "My first time zoomies",
+   "file": "diary/2026-11-15.md",
+   "mood": "grumpy"
+  },
+  {
+   "day": "2026-11-14",
+   "title": "A proud day",
+   "file": "diary/2026-11-14.md",
+   "mood": "sleepy"
+  },
+  {
+   "day": "2026-11-13",
+   "title": "dinosaurs! mrrp.",
+   "file": "diary/2026-11-13.md",
+   "mood": "sleepy"
+  },
+  {
+   "day": "2026-11-12",
+   "title": "ferry! mrrp.",
+   "file": "diary/2026-11-12.md",
+   "mood": "sleepy"
+  },
+  {
+   "day": "2026-11-11",
+   "title": "bats! mrrp.",
+   "file": "diary/2026-11-11.md",
+   "mood": "bored"
+  },
+  {
+   "day": "2026-11-10",
+   "title": "birds! mrrp.",
+   "file": "diary/2026-11-10.md",
+   "mood": "sleepy"
+  }
+ ],
+ "cat": {
+  "name": "Bao",
+  "generation": 1,
+  "born": "2026-11-10"
+ },
+ "updated": "2026-11-29",
+ "counts": {
+  "music": 8,
+  "game": 7,
+  "story": 13,
+  "blueprint": 10,
+  "comic": 7,
+  "art": 1
+ },
+ "studio": {
+  "skills": {
+   "art": {
+    "level": 0.023,
+    "level_name": "brand-new artist",
+    "made": 1,
+    "techniques": [
+     "Scribbling"
+    ]
+   },
+   "music": {
+    "level": 0.067,
+    "level_name": "brand-new musician",
+    "made": 14,
+    "techniques": [
+     "Plinking",
+     "Steady beat"
+    ]
+   },
+   "story": {
+    "level": 0.103,
+    "level_name": "beginner writer",
+    "made": 15,
+    "techniques": [
+     "One-liners",
+     "Beginning, middle and end"
+    ]
+   },
+   "comic": {
+    "level": 0.044,
+    "level_name": "brand-new comic artist",
+    "made": 7,
+    "techniques": [
+     "Single panel"
+    ]
+   },
+   "game": {
+    "level": 0.044,
+    "level_name": "brand-new game maker",
+    "made": 9,
+    "techniques": [
+     "Click toy"
+    ]
+   },
+   "blueprint": {
+    "level": 0.053,
+    "level_name": "brand-new architect",
+    "made": 11,
+    "techniques": [
+     "Box house",
+     "Roofs"
+    ]
+   }
+  },
+  "palette": [
+   "#2f9c95",
+   "#8d6346",
+   "#ffbe0b",
+   "#ff8fab",
+   "#7d8fa3",
+   "#8e7d3a"
+  ],
+  "signature": "",
+  "style": {
+   "boldness": 0.37,
+   "neatness": 0.31,
+   "whimsy": 0.52,
+   "detail": 0.44,
+   "darkness": 0.54
+  }
+ }
+}

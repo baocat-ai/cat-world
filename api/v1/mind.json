@@ -1,0 +1,613 @@
+{
+ "schema_version": 1,
+ "generated": "2026-11-29T02:03:37+11:00",
+ "name": "Bao",
+ "goals": [
+  {
+   "what": "save up for my big dream",
+   "why": "fly over the island in a hot-air balloon",
+   "kind": "save_up",
+   "progress": 0.283
+  },
+  {
+   "what": "finish my project: compose a cloud song",
+   "why": "I love cloud so much",
+   "kind": "make",
+   "progress": 0.5
+  },
+  {
+   "what": "learn about the Moon",
+   "why": "because moon keeps popping into my head",
+   "kind": "learn",
+   "progress": 0.6
+  }
+ ],
+ "dream": {
+  "what": "fly over the island in a hot-air balloon",
+  "why": "I want to see my whole island from the sky.",
+  "kind": "big_dream",
+  "progress": 0.5
+ },
+ "wants": [
+  "dream-balloon"
+ ],
+ "worries": [
+  "I'm a bit bored.",
+  "I'm feeling a bit lonely."
+ ],
+ "interests": [
+  {
+   "topic": "rain",
+   "strength": 0.905
+  },
+  {
+   "topic": "cloud",
+   "strength": 0.84
+  },
+  {
+   "topic": "bird",
+   "strength": 0.703
+  },
+  {
+   "topic": "moon",
+   "strength": 0.7
+  },
+  {
+   "topic": "hot air balloon",
+   "strength": 0.567
+  },
+  {
+   "topic": "aeroplane",
+   "strength": 0.431
+  },
+  {
+   "topic": "rainbow",
+   "strength": 0.388
+  },
+  {
+   "topic": "ice pellet",
+   "strength": 0.379
+  }
+ ],
+ "obsession": "rain",
+ "saving_for": {
+  "id": "dream-balloon",
+  "label": "my big dream",
+  "target": 60,
+  "have": 16,
+  "progress": 0.267
+ },
+ "projects": [
+  {
+   "title": "Compose a cloud song",
+   "progress": 0.5,
+   "next_step": "work out the best ending"
+  }
+ ],
+ "brain": {
+  "needs": {
+   "food": 0.345,
+   "energy": 0.736,
+   "fun": 0.206,
+   "social": 0,
+   "comfort": 0.974,
+   "learning": 0.641
+  },
+  "dials": {
+   "energy": 0.635,
+   "mood": 0.397
+  },
+  "mood": {
+   "label": "bored",
+   "valence": -0.298,
+   "arousal": 0.481,
+   "feelings": [
+    {
+     "name": "joy",
+     "amount": 0.162
+    },
+    {
+     "name": "boredom",
+     "amount": 0.078
+    },
+    {
+     "name": "annoyance",
+     "amount": 0.068
+    }
+   ]
+  },
+  "deciding_now": {
+   "chose": "eat",
+   "because": "I chose to eat because I'm hungry and it went well last time. I also thought about naps.",
+   "at": "2026-11-29T02:03:37.663527+11:00",
+   "options": [
+    {
+     "action": "eat",
+     "label": "eating",
+     "score": 1.155,
+     "parts": {
+      "bias": 0.1,
+      "learned": 0.444,
+      "mood": 0.0,
+      "need": 0.526,
+      "noise": 0.071,
+      "novelty": 0.013,
+      "personality": 0.0
+     },
+     "reasons": [
+      "I'm hungry",
+      "it went well last time",
+      "it fits my plans and routine right now",
+      "I just felt like it"
+     ],
+     "against": []
+    },
+    {
+     "action": "nap",
+     "label": "having a cat nap",
+     "score": 0.804,
+     "parts": {
+      "bias": 0.1,
+      "learned": 0.15,
+      "mood": 0.005,
+      "need": 0.072,
+      "noise": 0.068,
+      "novelty": 0.052,
+      "personality": 0.357
+     },
+     "reasons": [
+      "I'm a lazy cat",
+      "it went well last time",
+      "it fits my plans and routine right now",
+      "I'm sleepy"
+     ],
+     "against": []
+    },
+    {
+     "action": "watch_window",
+     "label": "watching out the window",
+     "score": 0.645,
+     "parts": {
+      "bias": 0.084,
+      "learned": 0.052,
+      "mood": -0.051,
+      "need": 0.157,
+      "noise": 0.034,
+      "novelty": 0.045,
+      "personality": 0.324
+     },
+     "reasons": [
+      "I'm a curious cat",
+      "I'm bored",
+      "it fits my plans and routine right now",
+      "it went well last time"
+     ],
+     "against": [
+      "I'm not in the mood"
+     ]
+    },
+    {
+     "action": "read",
+     "label": "reading",
+     "score": 0.63,
+     "parts": {
+      "bias": 0.1,
+      "learned": 0.024,
+      "mood": 0.014,
+      "need": 0.206,
+      "noise": -0.03,
+      "novelty": 0.03,
+      "personality": 0.285
+     },
+     "reasons": [
+      "I'm a curious cat",
+      "I want to learn something",
+      "it fits my plans and routine right now"
+     ],
+     "against": []
+    },
+    {
+     "action": "knock_things_over",
+     "label": "knocking things off the shelf",
+     "score": 0.474,
+     "parts": {
+      "bias": 0.037,
+      "learned": 0.01,
+      "mood": -0.056,
+      "need": 0.338,
+      "noise": -0.015,
+      "novelty": 0.048,
+      "personality": 0.111
+     },
+     "reasons": [
+      "I'm bored",
+      "I'm a grumpy cat"
+     ],
+     "against": [
+      "I'm not in the mood"
+     ]
+    },
+    {
+     "action": "laze_in_spot",
+     "label": "lazing about",
+     "score": 0.45,
+     "parts": {
+      "bias": 0.1,
+      "learned": 0.078,
+      "mood": 0.005,
+      "need": 0.001,
+      "noise": -0.013,
+      "novelty": 0.061,
+      "personality": 0.218
+     },
+     "reasons": [
+      "I'm a lazy cat",
+      "it fits my plans and routine right now",
+      "it went well last time",
+      "I haven't done it for a while"
+     ],
+     "against": []
+    }
+   ]
+  },
+  "recent_decisions": [
+   {
+    "at": "2026-11-29T02:01:22+11:00",
+    "chose": "sleep",
+    "because": "Time to sleep. I'm sleepy."
+   },
+   {
+    "at": "2026-11-29T01:41:22+11:00",
+    "chose": "daydream",
+    "because": "I'm a creative cat, and I haven't done it for a while. So: daydream. Daydreaming: some days yes, some days no."
+   },
+   {
+    "at": "2026-11-29T01:21:22+11:00",
+    "chose": "zoomies",
+    "because": "Time to do zoomies. I'm bored. Zoomies: nope."
+   },
+   {
+    "at": "2026-11-29T01:01:22+11:00",
+    "chose": "check_sales",
+    "because": "Time to check my shop. I wonder if anyone liked my things. Checking my shop is a mixed bag for me."
+   },
+   {
+    "at": "2026-11-29T00:41:22+11:00",
+    "chose": "sulk",
+    "because": "I'm going to sulk, because I'm a grumpy cat and it suits my mood."
+   },
+   {
+    "at": "2026-11-29T00:21:22+11:00",
+    "chose": "eat",
+    "because": "I'm hungry, and it went well last time. So: eat."
+   }
+  ]
+ },
+ "values": [
+  "making things",
+  "adventure",
+  "fairness"
+ ],
+ "pulls": [
+  {
+   "kind": "work",
+   "text": "finish The Curious Cloud",
+   "weight": 0.795,
+   "opened": "2026-11-25"
+  },
+  {
+   "kind": "question",
+   "text": "Why do clouds turn dark right before it starts raining",
+   "weight": 0.511,
+   "opened": "2026-11-28"
+  },
+  {
+   "kind": "question",
+   "text": "what pluto is all about",
+   "weight": 0.5,
+   "opened": "2026-11-28"
+  },
+  {
+   "kind": "want",
+   "text": "know everything about rain",
+   "weight": 0.338,
+   "opened": "2026-11-15"
+  },
+  {
+   "kind": "want",
+   "text": "know everything about clouds",
+   "weight": 0.313,
+   "opened": "2026-11-17"
+  },
+  {
+   "kind": "want",
+   "text": "know everything about birds",
+   "weight": 0.284,
+   "opened": "2026-11-26"
+  },
+  {
+   "kind": "question",
+   "text": "what's the story with bird",
+   "weight": 0.248,
+   "opened": "2026-11-25"
+  },
+  {
+   "kind": "question",
+   "text": "what's the story with bubbles",
+   "weight": 0.237,
+   "opened": "2026-11-28"
+  }
+ ],
+ "beliefs": [
+  {
+   "text": "I get there in the end",
+   "evidence": 9,
+   "since": "2026-11-11"
+  },
+  {
+   "text": "making blueprints cheers me up",
+   "evidence": 9,
+   "since": "2026-11-11"
+  },
+  {
+   "text": "making games cheers me up",
+   "evidence": 7,
+   "since": "2026-11-15"
+  },
+  {
+   "text": "making songs cheers me up",
+   "evidence": 7,
+   "since": "2026-11-18"
+  },
+  {
+   "text": "island goes deeper than I thought",
+   "evidence": 7,
+   "since": "2026-11-20"
+  },
+  {
+   "text": "mountain goes deeper than I thought",
+   "evidence": 7,
+   "since": "2026-11-23"
+  },
+  {
+   "text": "making stories cheers me up",
+   "evidence": 6,
+   "since": "2026-11-11"
+  },
+  {
+   "text": "outer space goes deeper than I thought",
+   "evidence": 5,
+   "since": "2026-11-27"
+  },
+  {
+   "text": "trying again usually works",
+   "evidence": 4,
+   "since": "2026-11-11"
+  },
+  {
+   "text": "people like my blueprints",
+   "evidence": 4,
+   "since": "2026-11-15"
+  }
+ ],
+ "verdicts": [
+  {
+   "about": "stories",
+   "line": "Stories are good. I'd do it again.",
+   "score": 0.594,
+   "visits": 4,
+   "since": "2026-11-25"
+  },
+  {
+   "about": "outings",
+   "line": "Outings: nope.",
+   "score": -0.525,
+   "visits": 6,
+   "since": "2026-11-10"
+  },
+  {
+   "about": "The Sydney Acorn",
+   "line": "I like The Sydney Acorn, quietly.",
+   "score": 0.514,
+   "visits": 30,
+   "since": "2026-11-20"
+  },
+  {
+   "about": "watching the window",
+   "line": "Watching the window: worth it.",
+   "score": 0.416,
+   "visits": 31,
+   "since": "2026-11-11"
+  },
+  {
+   "about": "blueprints",
+   "line": "Blueprints are a mixed bag for me.",
+   "score": 0.394,
+   "visits": 11,
+   "since": "2026-11-11"
+  },
+  {
+   "about": "games",
+   "line": "Games are good. I'd do it again.",
+   "score": 0.392,
+   "visits": 9,
+   "since": "2026-11-13"
+  },
+  {
+   "about": "daydreaming",
+   "line": "Daydreaming: some days yes, some days no.",
+   "score": 0.321,
+   "visits": 20,
+   "since": "2026-11-11"
+  },
+  {
+   "about": "reading",
+   "line": "Not sure about reading yet.",
+   "score": 0.307,
+   "visits": 41,
+   "since": "2026-11-10"
+  },
+  {
+   "about": "cloud stories",
+   "line": "Cloud stories: yes. Always yes.",
+   "score": 0.447,
+   "visits": 1,
+   "since": "2026-11-27"
+  },
+  {
+   "about": "checking my shop",
+   "line": "Checking my shop is a mixed bag for me.",
+   "score": 0.253,
+   "visits": 7,
+   "since": "2026-11-15"
+  }
+ ],
+ "promises": [],
+ "unfinished": [
+  {
+   "place": "weather_station",
+   "place_name": "The Curious Cloud",
+   "what": "building The Curious Cloud",
+   "since": "2026-11-21"
+  }
+ ],
+ "reading_trails": [
+  {
+   "at": "2026-11-28T22:05:26+11:00",
+   "source": "NASA's picture of the day",
+   "steps": [
+    {
+     "title": "NASA Science",
+     "why": "I wanted to learn about moon for a goal"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "at": "2026-11-28T18:58:31+11:00",
+   "source": "Simple English Wikipedia",
+   "steps": [
+    {
+     "title": "Natural satellite",
+     "why": "I followed a link I saved earlier, to lunar"
+    },
+    {
+     "title": "Planet",
+     "why": "I want to see which planets have the most moons to play with!"
+    },
+    {
+     "title": "Spheroid",
+     "why": "I'd never read about Spheroid before"
+    }
+   ],
+   "facts": [
+    "A natural satellite is a smaller body that moves around a larger body in space!",
+    "Earth has just one moon, but some planets have lots of moons and some have none at all."
+   ]
+  },
+  {
+   "at": "2026-11-28T15:37:26+11:00",
+   "source": "NASA's picture of the day",
+   "steps": [
+    {
+     "title": "NASA Science",
+     "why": "I wanted to learn about moon for a goal"
+    }
+   ],
+   "facts": []
+  },
+  {
+   "at": "2026-11-28T12:26:45+11:00",
+   "source": "Simple English Wikipedia",
+   "steps": [
+    {
+     "title": "Seasons",
+     "why": "I followed a link I saved earlier, to Seasons"
+    }
+   ],
+   "facts": [
+    "I learned about a studio album called Seasons!",
+    "This album was released on October 7, 2003."
+   ]
+  }
+ ],
+ "thoughts": [
+  {
+   "at": "2026-11-29T00:21:22+11:00",
+   "text": "I keep thinking about something I read: Moons are natural satellites.",
+   "wonder": "what pluto is all about"
+  },
+  {
+   "at": "2026-11-28T21:08:23+11:00",
+   "text": "I started reading about Natural satellite and ended up at Spheroid. Funny how one thing leads to another.",
+   "wonder": "what pluto is all about"
+  },
+  {
+   "at": "2026-11-28T18:38:31+11:00",
+   "text": "Empty box is just sitting there. Nobody to chase me, no food in my bowl, and the sky is boring and clear. I need a storm.",
+   "wonder": "Why do clouds turn dark right before it starts raining?"
+  },
+  {
+   "at": "2026-11-28T15:17:26+11:00",
+   "text": "The big empty box is good, but it is boring all by myself. Need someone to chase me around it. Wish it would rain soon.",
+   "wonder": "Why do clouds turn dark right before it starts raining?"
+  }
+ ],
+ "wishes": {
+  "open": [
+   {
+    "id": 3,
+    "thing": "a giant rainbow cat tower",
+    "why": "I need a super tall spot to sit high above the island and look majestic in the clouds.",
+    "where": "on my island",
+    "status": "open",
+    "status_words": "wished for",
+    "kind": "needs making"
+   }
+  ],
+  "came_true": [
+   {
+    "id": 2,
+    "thing": "a tree swing",
+    "why": "So I can swing high and pretend I'm flying.",
+    "where": "under the biggest tree",
+    "status": "came_true",
+    "status_words": "came true!",
+    "kind": "needs making"
+   },
+   {
+    "id": 1,
+    "thing": "a statue of me",
+    "why": "So the frogs remember me when I nap.",
+    "where": "by the pond",
+    "status": "came_true",
+    "status_words": "came true!",
+    "kind": "needs making"
+   }
+  ]
+ },
+ "big_dream": {
+  "came_true": [],
+  "what": "fly over the island in a hot-air balloon",
+  "why": "I want to see my whole island from the sky.",
+  "steps": [
+   {
+    "what": "save 60 coins in my dream jar",
+    "done": false
+   },
+   {
+    "what": "learn all about hot air balloons",
+    "done": true
+   },
+   {
+    "what": "draw the island as a bird would see it",
+    "done": true
+   },
+   {
+    "what": "ask for a hot-air balloon",
+    "done": false
+   }
+  ],
+  "progress": 0.5
+ }
+}

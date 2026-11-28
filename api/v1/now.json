@@ -1,0 +1,72 @@
+{
+ "schema_version": 1,
+ "generated": "2026-11-29T02:03:37+11:00",
+ "name": "Bao",
+ "doing": "sleeping",
+ "activity": "sleep",
+ "place": "room",
+ "asleep": false,
+ "mood": "bored",
+ "mood_value": -0.298,
+ "energy": 0.736,
+ "weather": {
+  "kind": "clear",
+  "temp_c": 17.0,
+  "text": "It's a clear night and 17 degrees in Sydney."
+ },
+ "time": {
+  "sydney_iso": "2026-11-29T02:03:37+11:00",
+  "part_of_day": "night",
+  "season": "spring",
+  "holiday": null,
+  "birthday_today": false
+ },
+ "decorations": [
+  "spring_flowers"
+ ],
+ "coins": 16,
+ "latest": [
+  {
+   "id": "music-14",
+   "kind": "music",
+   "title": "The Lunar Song",
+   "image": "",
+   "created": "2026-11-29"
+  },
+  {
+   "id": "music-13",
+   "kind": "music",
+   "title": "Pitter-Patter Rain Song",
+   "image": "",
+   "created": "2026-11-28"
+  },
+  {
+   "id": "game-9",
+   "kind": "game",
+   "title": "Boop Cloud!",
+   "image": "",
+   "created": "2026-11-28"
+  },
+  {
+   "id": "story-15",
+   "kind": "story",
+   "title": "Moon",
+   "image": "",
+   "created": "2026-11-28"
+  },
+  {
+   "id": "game-8",
+   "kind": "game",
+   "title": "Bird Click",
+   "image": "",
+   "created": "2026-11-27"
+  },
+  {
+   "id": "story-14",
+   "kind": "story",
+   "title": "Cloud",
+   "image": "",
+   "created": "2026-11-27"
+  }
+ ]
+}

@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src &#x27;none&#x27;; script-src &#x27;unsafe-inline&#x27;; style-src &#x27;unsafe-inline&#x27;; img-src &#x27;none&#x27;; connect-src &#x27;none&#x27;; media-src &#x27;none&#x27;; object-src &#x27;none&#x27;; frame-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;">
+<title>Boop Hot Air Balloon!</title>
+<style>
+:root { color-scheme: light dark; }
+body { margin: 0; padding: 12px; font-family: system-ui, sans-serif; background: #8499aa; color: #1d1d28;
+       display: flex; justify-content: center; }
+main { max-width: 500px; width: 100%; text-align: center; }
+h1 { font-size: 1.4rem; margin: 0.2rem 0 0.5rem; }
+canvas { width: 100%; max-width: 480px; aspect-ratio: 4 / 3; border-radius: 12px; touch-action: none;
+         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25); background: #d8d3db; }
+p { line-height: 1.4; margin: 0.6rem 0; }
+#pad { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+#pad button { font-size: 1.1rem; padding: 0.7rem 1.1rem; border-radius: 10px; border: 0; background: #cead4b;
+              color: #1d1d28; touch-action: none; }
+</style>
+</head>
+<body>
+<main>
+<h1 id="title"></h1>
+<canvas id="game" width="480" height="360"></canvas>
+<p id="how"></p>
+<div id="pad"></div>
+</main>
+<script type="application/json" id="cat-data">{"how":"Click the dot!","pops":["Pop!","Hooray!","Yay!"],"title":"Boop Hot Air Balloon!","ui":{"again":"Click or press Enter to play again","level":"Level","ouch":"Ouch!","over":"Oops! Try again?","start":"Click or press Enter to start","win":"You did it!"}}</script>
+<script type="application/json" id="game-config">{"bugs":[],"buttons":[],"colours":{"accent":"#cead4b","bad":"#447fbe","bg":"#9e91a5","bg2":"#8499aa","good":"#4caf50","ground":"#727d86","heart":"#e2556a","item":"#7c54ad","panel":"#d8d3db","player":"#bf7a3e","text":"#1d1d28","wall":"#4b5562","wrong":"#d94a4a"},"detail":0.092,"difficulty":0.276,"gravity":0,"levels":1,"lives":0,"parts":["click","wander"],"pitch":0.7,"scenery":"none","seconds":0,"seed":1316839870,"size":39.9,"speed":65.9,"survive":false,"target":0,"target_step":1,"template":"clicker","things":{"bad":"drop","goal":"balloon","item":"balloon","player":"cat","target":"dot"},"wave":"triangle"}</script>
+<script>
+"use strict";
+// ===================== THE ENGINE (the same in every game the cat makes) =====================
+// The cat's words are in the "cat-data" block and the numbers in "game-config". Words are only
+// ever shown with textContent or fillText, so a word can never turn into code.
+const D = JSON.parse(document.getElementById("cat-data").textContent);
+const C = JSON.parse(document.getElementById("game-config").textContent);
+const canvas = document.getElementById("game");
+const ctx = canvas.getContext("2d");
+const W = canvas.width, H = canvas.height, K = C.colours, TAU = Math.PI * 2;
+document.getElementById("title").textContent = D.title;
+document.getElementById("how").textContent = D.how;
+canvas.setAttribute("aria-label", D.title + ". " + D.how);
+
+// Seeded dice: the game plays the same way every time it loads (like the cat's own dice).
+let seed = (C.seed >>> 0) || 1;
+function rnd() {
+  seed = (seed + 0x6D2B79F5) >>> 0;
+  let t = seed;
+  t = Math.imul(t ^ (t >>> 15), t | 1);
+  t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+  return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+}
+function between(a, b) { return a + (b - a) * rnd(); }
+function pick(list) { return list[Math.floor(rnd() * list.length)]; }
+function clamp(v, lo, hi) { return Math.max(lo, Math.min(hi, v)); }
+function dist(ax, ay, bx, by) { return Math.hypot(ax - bx, ay - by); }
+function has(name) { return C.parts.indexOf(name) >= 0; }
+function bug(name) { return C.bugs.indexOf(name) >= 0; }
+function reach(r) { return bug("hitbox") ? r * 0.7 : r; }   // the "hitbox" bug: edges measured a bit wrong
+
+const G = { mode: "play", score: 0, level: 1, time: 0, left: 0, lives: 0, msg: "", note: "", noteT: 0,
+            keys: {}, mouse: { x: W / 2, y: H / 2, down: false } };
+const PARTS = [];
+function addPart(p) { PARTS.push(p); }
+function run(hook, a, b) { for (const p of PARTS) { if (p[hook]) { p[hook](a, b); } } }
+
+// Hooks that parts switch on. Until a part replaces them, they do nothing.
+let sfx = function (name) {};
+let burst = function (x, y, colour) {};
+let gravity = 0;
+let useSprites = false;
+const SPRITES = {};
+
+function say(text, seconds) { G.note = text; G.noteT = seconds || 1.5; }
+function target() { return C.target + C.target_step * (G.level - 1); }
+function startGame() {
+  G.score = 0; G.level = 1; G.time = 0; G.left = C.seconds; G.lives = C.lives; G.msg = ""; G.noteT = 0;
+  G.mode = "play";
+  run("start");
+}
+function win() { if (G.mode !== "play") { return; } G.mode = "won"; G.msg = D.ui.win; sfx("win"); burst(W / 2, H / 2, K.accent); }
+function lose(text) { if (G.mode !== "play") { return; } G.mode = "over"; G.msg = text || D.ui.over; sfx("lose"); }
+function goal() {   // reached the target: on to the next level, or the end
+  if (has("levels") && G.level < C.levels) { G.level += 1; sfx("level"); say(D.ui.level + " " + G.level, 1.6); run("levelup"); }
+  else { win(); }
+}
+function addScore(n, x, y) {
+  G.score += n;
+  if (n > 0) { sfx("point"); burst(x, y, K.accent); }
+  if (C.target > 0 && G.score >= target()) { goal(); }
+}
+function ouch(x, y) {   // touched something bad
+  sfx("hit"); burst(x, y, K.bad);
+  if (has("lives")) { G.lives -= 1; if (G.lives <= 0) { lose(); } else { say(D.ui.ouch, 1); } }
+  else { lose(); }
+}
+
+// ----- Input: mouse, finger and keyboard -----
+function toCanvas(e) {
+  const r = canvas.getBoundingClientRect();
+  return { x: (e.clientX - r.left) * W / r.width, y: (e.clientY - r.top) * H / r.height };
+}
+canvas.addEventListener("pointerdown", function (e) {
+  const p = toCanvas(e);
+  G.mouse.x = p.x; G.mouse.y = p.y; G.mouse.down = true;
+  if (G.mode === "menu") { startGame(); return; }
+  if (G.mode !== "play") { if (!bug("no_restart")) { startGame(); } return; }
+  run("press", p.x, p.y);
+});
+canvas.addEventListener("pointermove", function (e) { const p = toCanvas(e); G.mouse.x = p.x; G.mouse.y = p.y; });
+window.addEventListener("pointerup", function (e) {
+  if (!G.mouse.down) { return; }
+  G.mouse.down = false;
+  const p = toCanvas(e);
+  if (G.mode === "play") { run("release", p.x, p.y); }
+});
+const GAME_KEYS = ["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown", " "];
+function pressKey(k) {
+  if (G.mode === "menu") { if (k === "Enter" || k === " ") { startGame(); } return; }
+  if (G.mode !== "play") { if ((k === "Enter" || k === "r" || k === "R") && !bug("no_restart")) { startGame(); } return; }
+  run("key", k);
+}
+window.addEventListener("keydown", function (e) {
+  if (GAME_KEYS.indexOf(e.key) >= 0) { e.preventDefault(); }
+  G.keys[e.key] = true;
+  if (!e.repeat) { pressKey(e.key); }
+});
+window.addEventListener("keyup", function (e) { G.keys[e.key] = false; });
+
+// ----- A tiny picture library: every picture is made of circles and polygons -----
+function circle(x, y, r, c) { ctx.fillStyle = c; ctx.beginPath(); ctx.arc(x, y, Math.max(0.5, r), 0, TAU); ctx.fill(); }
+function oval(x, y, rx, ry, c) { ctx.fillStyle = c; ctx.beginPath(); ctx.ellipse(x, y, Math.max(0.5, rx), Math.max(0.5, ry), 0, 0, TAU); ctx.fill(); }
+function poly(c, pts) {
+  ctx.fillStyle = c; ctx.beginPath(); ctx.moveTo(pts[0], pts[1]);
+  for (let i = 2; i < pts.length; i += 2) { ctx.lineTo(pts[i], pts[i + 1]); }
+  ctx.closePath(); ctx.fill();
+}
+function box(x, y, w, h, c) { ctx.fillStyle = c; ctx.fillRect(x, y, w, h); }
+function stroke(c, wide, pts) {
+  ctx.strokeStyle = c; ctx.lineWidth = wide; ctx.beginPath(); ctx.moveTo(pts[0], pts[1]);
+  for (let i = 2; i < pts.length; i += 2) { ctx.lineTo(pts[i], pts[i + 1]); }
+  ctx.stroke();
+}
+function words(text, x, y, size, c, align) {
+  ctx.fillStyle = c; ctx.font = "bold " + size + "px system-ui, sans-serif"; ctx.textAlign = align || "center";
+  ctx.fillText(String(text), x, y);
+}
+function wrap(text, x, y, width, size, c) {   // words that wrap onto more lines
+  ctx.font = "bold " + size + "px system-ui, sans-serif";
+  const parts = String(text).split(" ");
+  let lineText = "", yy = y;
+  for (const w of parts) {
+    const test = lineText ? lineText + " " + w : w;
+    if (ctx.measureText(test).width > width && lineText) { words(lineText, x, yy, size, c); lineText = w; yy += size * 1.3; }
+    else { lineText = test; }
+  }
+  if (lineText) { words(lineText, x, yy, size, c); }
+  return yy;
+}
+function darker(hex, k) {
+  const n = parseInt(hex.slice(1), 16);
+  const r = Math.round(((n >> 16) & 255) * k), g = Math.round(((n >> 8) & 255) * k), b = Math.round((n & 255) * k);
+  return "rgb(" + r + "," + g + "," + b + ")";
+}
+function eye(x, y, r) { circle(x, y, r, "#ffffff"); circle(x + r * 0.25, y, r * 0.55, "#222222"); }
+const fine = C.detail >= 0.4;   // better builders add eyes, shine and stripes
+const GLYPHS = {
+  dot: function (x, y, s, c) { circle(x, y, s, c); if (fine) { circle(x - s * 0.35, y - s * 0.35, s * 0.25, "#ffffff"); } },
+  cat: function (x, y, s, c) {
+    poly(c, [x - s, y - s * 0.2, x - s * 0.75, y - s * 1.1, x - s * 0.2, y - s * 0.7]);
+    poly(c, [x + s, y - s * 0.2, x + s * 0.75, y - s * 1.1, x + s * 0.2, y - s * 0.7]);
+    circle(x, y, s * 0.85, c);
+    if (fine) { eye(x - s * 0.32, y - s * 0.1, s * 0.2); eye(x + s * 0.32, y - s * 0.1, s * 0.2); circle(x, y + s * 0.2, s * 0.1, "#f28cb1"); }
+  },
+  train: function (x, y, s, c) {
+    box(x - s, y - s * 0.5, s * 1.4, s * 0.9, c); box(x + s * 0.2, y - s, s * 0.8, s * 1.4, darker(c, 0.8));
+    box(x - s * 0.8, y - s * 1.0, s * 0.3, s * 0.5, "#333333");
+    circle(x - s * 0.55, y + s * 0.5, s * 0.3, "#333333"); circle(x + s * 0.55, y + s * 0.5, s * 0.3, "#333333");
+    if (fine) { box(x + s * 0.35, y - s * 0.8, s * 0.5, s * 0.4, "#cfefff"); }
+  },
+  ticket: function (x, y, s, c) { box(x - s, y - s * 0.6, s * 2, s * 1.2, c); if (fine) { box(x - s * 0.6, y - s * 0.1, s * 1.2, s * 0.2, "#333333"); } },
+  rock: function (x, y, s, c) {
+    poly(c, [x - s, y + s * 0.3, x - s * 0.6, y - s * 0.7, x + s * 0.2, y - s, x + s, y - s * 0.2, x + s * 0.7, y + s * 0.8, x - s * 0.4, y + s * 0.9]);
+    if (fine) { circle(x - s * 0.2, y - s * 0.3, s * 0.18, darker(c, 0.75)); }
+  },
+  gem: function (x, y, s, c) { poly(c, [x, y - s, x + s * 0.8, y - s * 0.2, x, y + s, x - s * 0.8, y - s * 0.2]); if (fine) { poly("#ffffff", [x - s * 0.2, y - s * 0.6, x, y - s * 0.8, x - s * 0.05, y - s * 0.3]); } },
+  volcano: function (x, y, s, c) { poly("#6b4a3a", [x - s * 1.2, y + s, x - s * 0.3, y - s * 0.6, x + s * 0.3, y - s * 0.6, x + s * 1.2, y + s]); oval(x, y - s * 0.6, s * 0.35, s * 0.15, c); },
+  basket: function (x, y, s, c) { poly(c, [x - s, y - s * 0.4, x + s, y - s * 0.4, x + s * 0.7, y + s * 0.6, x - s * 0.7, y + s * 0.6]); if (fine) { box(x - s, y - s * 0.5, s * 2, s * 0.2, darker(c, 0.7)); } },
+  fish: function (x, y, s, c) {
+    oval(x, y, s, s * 0.6, c); poly(c, [x - s * 0.8, y, x - s * 1.5, y - s * 0.6, x - s * 1.5, y + s * 0.6]);
+    if (fine) { eye(x + s * 0.45, y - s * 0.15, s * 0.18); }
+  },
+  jelly: function (x, y, s, c) {
+    ctx.fillStyle = c; ctx.beginPath(); ctx.arc(x, y, s, Math.PI, 0); ctx.closePath(); ctx.fill();
+    for (let i = -1; i <= 1; i++) { stroke(c, 2, [x + i * s * 0.5, y, x + i * s * 0.5 + 3, y + s * 0.5, x + i * s * 0.5 - 3, y + s]); }
+  },
+  rocket: function (x, y, s, c) {
+    oval(x, y, s * 0.45, s, c); poly("#d94a4a", [x - s * 0.4, y - s * 0.6, x, y - s * 1.3, x + s * 0.4, y - s * 0.6]);
+    poly("#d94a4a", [x - s * 0.45, y + s * 0.3, x - s * 0.9, y + s, x - s * 0.3, y + s * 0.8]);
+    poly("#d94a4a", [x + s * 0.45, y + s * 0.3, x + s * 0.9, y + s, x + s * 0.3, y + s * 0.8]);
+    if (fine) { circle(x, y - s * 0.2, s * 0.22, "#9fd3f2"); }
+  },
+  star: function (x, y, s, c) {
+    const pts = [];
+    for (let i = 0; i < 10; i++) { const r = i % 2 ? s * 0.45 : s, a = -Math.PI / 2 + i * Math.PI / 5; pts.push(x + r * Math.cos(a), y + r * Math.sin(a)); }
+    poly(c, pts);
+  },
+  dino: function (x, y, s, c) {
+    oval(x, y, s, s * 0.6, c); circle(x + s * 0.9, y - s * 0.7, s * 0.4, c);
+    poly(c, [x - s * 0.8, y - s * 0.1, x - s * 1.7, y + s * 0.3, x - s * 0.8, y + s * 0.4]);
+    box(x - s * 0.5, y + s * 0.4, s * 0.3, s * 0.5, c); box(x + s * 0.3, y + s * 0.4, s * 0.3, s * 0.5, c);
+    if (fine) { eye(x + s * 1.0, y - s * 0.8, s * 0.13); }
+  },
+  bone: function (x, y, s, c) { box(x - s * 0.7, y - s * 0.2, s * 1.4, s * 0.4, c); for (const dx of [-0.7, 0.7]) { circle(x + dx * s, y - s * 0.25, s * 0.25, c); circle(x + dx * s, y + s * 0.25, s * 0.25, c); } },
+  flower: function (x, y, s, c) { for (let i = 0; i < 5; i++) { const a = i * TAU / 5; circle(x + Math.cos(a) * s * 0.55, y + Math.sin(a) * s * 0.55, s * 0.45, c); } circle(x, y, s * 0.35, "#f2c94c"); },
+  beetle: function (x, y, s, c) { circle(x, y - s * 0.75, s * 0.35, "#2b2b2b"); circle(x, y, s * 0.8, c); if (fine) { circle(x - s * 0.3, y, s * 0.15, "#2b2b2b"); circle(x + s * 0.3, y + s * 0.2, s * 0.15, "#2b2b2b"); } },
+  mouse: function (x, y, s, c) { oval(x, y, s, s * 0.6, c); circle(x + s * 0.6, y - s * 0.5, s * 0.3, c); stroke(c, 2, [x - s, y, x - s * 1.5, y - s * 0.3]); if (fine) { eye(x + s * 0.65, y - s * 0.1, s * 0.12); } },
+  drop: function (x, y, s, c) { circle(x, y + s * 0.25, s * 0.65, c); poly(c, [x - s * 0.6, y + s * 0.1, x, y - s, x + s * 0.6, y + s * 0.1]); },
+  cheese: function (x, y, s, c) { poly(c, [x - s, y + s * 0.6, x + s, y + s * 0.6, x + s, y - s * 0.6]); if (fine) { circle(x + s * 0.4, y + s * 0.2, s * 0.15, darker(c, 0.8)); } },
+  sun: function (x, y, s, c) { for (let i = 0; i < 8; i++) { const a = i * TAU / 8; stroke(c, 3, [x + Math.cos(a) * s * 0.7, y + Math.sin(a) * s * 0.7, x + Math.cos(a) * s * 1.1, y + Math.sin(a) * s * 1.1]); } circle(x, y, s * 0.6, c); },
+  cloud: function (x, y, s, c) { circle(x - s * 0.5, y, s * 0.5, c); circle(x + s * 0.5, y, s * 0.5, c); circle(x, y - s * 0.3, s * 0.6, c); },
+  shell: function (x, y, s, c) { ctx.fillStyle = c; ctx.beginPath(); ctx.arc(x, y + s * 0.4, s, Math.PI, 0); ctx.closePath(); ctx.fill(); if (fine) { for (let i = 1; i < 4; i++) { stroke(darker(c, 0.8), 1, [x, y + s * 0.4, x - s + i * s * 0.5, y - s * 0.5]); } } },
+  crab: function (x, y, s, c) { oval(x, y, s, s * 0.6, c); circle(x - s, y - s * 0.6, s * 0.35, c); circle(x + s, y - s * 0.6, s * 0.35, c); if (fine) { eye(x - s * 0.3, y - s * 0.5, s * 0.15); eye(x + s * 0.3, y - s * 0.5, s * 0.15); } },
+  pumpkin: function (x, y, s, c) {
+    oval(x - s * 0.45, y, s * 0.55, s * 0.8, c); oval(x + s * 0.45, y, s * 0.55, s * 0.8, c); oval(x, y, s * 0.6, s * 0.85, darker(c, 1.05));
+    box(x - s * 0.1, y - s * 1.1, s * 0.2, s * 0.35, "#4caf50");
+    if (fine) { poly("#2b2b2b", [x - s * 0.45, y - s * 0.1, x - s * 0.2, y - s * 0.35, x - s * 0.1, y - s * 0.05]); poly("#2b2b2b", [x + s * 0.45, y - s * 0.1, x + s * 0.2, y - s * 0.35, x + s * 0.1, y - s * 0.05]); }
+  },
+  ghost: function (x, y, s, c) {
+    ctx.fillStyle = c; ctx.beginPath(); ctx.arc(x, y - s * 0.2, s * 0.8, Math.PI, 0);
+    ctx.lineTo(x + s * 0.8, y + s * 0.8); ctx.lineTo(x + s * 0.4, y + s * 0.5); ctx.lineTo(x, y + s * 0.8);
+    ctx.lineTo(x - s * 0.4, y + s * 0.5); ctx.lineTo(x - s * 0.8, y + s * 0.8); ctx.closePath(); ctx.fill();
+    circle(x - s * 0.3, y - s * 0.25, s * 0.13, "#2b2b2b"); circle(x + s * 0.3, y - s * 0.25, s * 0.13, "#2b2b2b");
+  },
+  present: function (x, y, s, c) { box(x - s * 0.8, y - s * 0.7, s * 1.6, s * 1.5, c); box(x - s * 0.15, y - s * 0.7, s * 0.3, s * 1.5, K.accent); box(x - s * 0.8, y - s * 0.1, s * 1.6, s * 0.25, K.accent); },
+  snowball: function (x, y, s, c) { circle(x, y, s * 0.8, c); if (fine) { circle(x - s * 0.25, y - s * 0.25, s * 0.25, "#ffffff"); } },
+  egg: function (x, y, s, c) { oval(x, y, s * 0.7, s, c); if (fine) { stroke("#ffffff", 2, [x - s * 0.6, y, x - s * 0.3, y - s * 0.2, x, y, x + s * 0.3, y - s * 0.2, x + s * 0.6, y]); } },
+  heart: function (x, y, s, c) { circle(x - s * 0.45, y - s * 0.2, s * 0.5, c); circle(x + s * 0.45, y - s * 0.2, s * 0.5, c); poly(c, [x - s * 0.92, y, x + s * 0.92, y, x, y + s]); },
+  balloon: function (x, y, s, c) { stroke("#555555", 1, [x, y + s, x + 3, y + s * 1.6]); oval(x, y, s * 0.75, s, c); if (fine) { circle(x - s * 0.3, y - s * 0.4, s * 0.15, "#ffffff"); } },
+  planet: function (x, y, s, c) { circle(x, y, s, c); if (fine) { ctx.strokeStyle = "#f4f1ea"; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.ellipse(x, y, s * 1.6, s * 0.45, -0.3, 0, TAU); ctx.stroke(); } }
+};
+function drawThing(name, x, y, s, c) {
+  if (bug("jitter")) { x += Math.sin(G.time * 37 + y) * 1.5; y += Math.cos(G.time * 29 + x) * 1.5; }
+  if (C.detail >= 0.75) { ctx.globalAlpha = 0.18; oval(x, y + s * 1.05, s * 0.9, s * 0.22, "#000000"); ctx.globalAlpha = 1; }
+  if (useSprites && SPRITES[name]) { pixels(SPRITES[name], x, y, s, c); return; }
+  (GLYPHS[name] || GLYPHS.dot)(x, y, s, c);
+}
+function pixels(rows, x, y, s, c) {   // pixel art: "1" = colour, "2" = dark
+  const px = (s * 2) / rows.length;
+  for (let r = 0; r < rows.length; r++) {
+    for (let k = 0; k < rows[r].length; k++) {
+      const v = rows[r][k];
+      if (v !== "0") { box(Math.round(x - s + k * px), Math.round(y - s + r * px), Math.ceil(px), Math.ceil(px), v === "2" ? "#222222" : c); }
+    }
+  }
+}
+
+// ----- Scenery behind the game (better builders paint a background) -----
+const DECOR = [];
+for (let i = 0; i < 40; i++) { DECOR.push([rnd() * W, rnd() * H, rnd()]); }
+const SCENERY = {
+  none: function () {},
+  night: function () { circle(W - 60, 60, 26, "#f4f1ea"); for (const d of DECOR) { if (d[1] < H * 0.6) { circle(d[0], d[1], 1 + d[2], "#f4f1ea"); } } },
+  space: function () { for (const d of DECOR) { circle(d[0], d[1], 0.5 + d[2] * 1.5, "#ffffff"); } },
+  sky: function () { for (let i = 0; i < 4; i++) { GLYPHS.cloud(DECOR[i][0], 40 + DECOR[i][2] * 60, 22, "rgba(255,255,255,0.7)"); } },
+  hills: function () { oval(W * 0.25, H + 40, W * 0.45, 120, K.ground); oval(W * 0.8, H + 60, W * 0.4, 130, darker(K.ground, 0.9)); },
+  garden: function () { box(0, H - 30, W, 30, K.ground); for (let i = 0; i < 8; i++) { GLYPHS.flower(DECOR[i][0], H - 12, 6, DECOR[i][2] > 0.5 ? "#f28cb1" : "#ffffff"); } },
+  sea: function () { for (let i = 0; i < 6; i++) { const x = DECOR[i][0]; stroke("#2f7a4a", 4, [x, H, x + Math.sin(G.time + i) * 8, H - 30, x, H - 60]); } box(0, H - 14, W, 14, "#e9d29a"); },
+  beach: function () { box(0, H - 40, W, 40, "#e9d29a"); box(0, H - 52, W, 12, "#4fb3d9"); circle(60, 60, 26, "#f2c94c"); },
+  room: function () { box(0, H - 40, W, 40, K.ground); box(30, 60, 70, 50, "#cfefff"); },
+  volcano: function () {
+    poly("#6b4a3a", [W / 2 - 150, H, W / 2 - 30, 70, W / 2 + 30, 70, W / 2 + 150, H]);
+    oval(W / 2, 70, 30, 9, "#f08c2e");
+    if (C.detail >= 0.5) { ctx.globalAlpha = 0.25 + 0.15 * Math.sin(G.time * 3); circle(W / 2, 60, 40, "#f2c94c"); ctx.globalAlpha = 1; }
+  }
+};
+function background() {
+  if (C.detail >= 0.35) {
+    const g = ctx.createLinearGradient(0, 0, 0, H); g.addColorStop(0, K.bg); g.addColorStop(1, K.bg2); ctx.fillStyle = g;
+  } else { ctx.fillStyle = K.bg; }
+  ctx.fillRect(0, 0, W, H);
+  (SCENERY[C.scenery] || SCENERY.none)();
+}
+
+// ----- The game loop: update everything a little, then draw it all, about 60 times a second -----
+let last = 0;
+function paint() {
+  background();
+  run("draw");
+  run("hud");
+  if (G.noteT > 0 && G.note) { words(G.note, W / 2, 56, 20, K.text); }
+  if (D.signature) { words(D.signature, W - 8, 42, 11, K.text, "right"); }
+  if (G.mode === "won" || G.mode === "over") {
+    ctx.globalAlpha = 0.8; box(0, H / 2 - 50, W, 100, K.panel); ctx.globalAlpha = 1;
+    words(G.msg, W / 2, H / 2 - 4, 28, K.text);
+    if (!bug("no_restart")) { words(D.ui.again, W / 2, H / 2 + 30, 15, K.text); }
+  }
+  run("overlay");
+}
+function frame(t) {
+  const dt = last ? Math.min(0.05, (t - last) / 1000) : 0;
+  last = t;
+  if (G.mode === "play") { G.time += dt; if (G.noteT > 0) { G.noteT -= dt; } run("update", dt); }
+  run("tick", dt);
+  paint();
+  requestAnimationFrame(frame);
+}
+
+// GAME: click toy - click the thing and it does something funny.
+const T = { x: W / 2, y: H / 2, vx: 0, vy: 0, r: C.size, wiggle: 0, pop: "", popT: 0, px: 0, py: 0 };
+function aim() { const a = rnd() * TAU; T.vx = Math.cos(a); T.vy = Math.sin(a); }
+addPart({
+  start: function () { T.x = W / 2; T.y = H / 2; T.r = C.size; aim(); },
+  levelup: function () { T.r = Math.max(14, T.r * 0.85); aim(); },
+  update: function (dt) {
+    const speed = C.speed * (1 + 0.3 * (G.level - 1));
+    if (rnd() < dt * 0.7) { aim(); }
+    T.x += T.vx * speed * dt; T.y += T.vy * speed * dt;
+    const edge = bug("offscreen") ? -T.r * 0.6 : T.r;
+    if (T.x < edge || T.x > W - edge) { T.vx = -T.vx; T.x = clamp(T.x, edge, W - edge); }
+    if (T.y < edge + 30 || T.y > H - edge) { T.vy = -T.vy; T.y = clamp(T.y, edge + 30, H - edge); }
+    T.wiggle = Math.max(0, T.wiggle - dt); T.popT = Math.max(0, T.popT - dt);
+  },
+  press: function (x, y) {
+    if (dist(x, y, T.x, T.y) > reach(T.r * 1.15)) { return; }
+    T.wiggle = 0.4; T.pop = pick(D.pops); T.popT = 0.9; T.px = T.x; T.py = T.y - T.r - 10;
+    if (has("score")) { addScore(1, T.x, T.y); } else { sfx("point"); burst(T.x, T.y, K.accent); }
+    aim();
+  },
+  draw: function () {
+    drawThing(C.things.target, T.x + Math.sin(T.wiggle * 40) * T.wiggle * 20, T.y, T.r, K.item);
+    if (T.popT > 0) { words(T.pop, T.px, T.py - (0.9 - T.popT) * 30, 20, K.text); }
+  }
+});
+
+// ----- Off we go! -----
+startGame();
+if (has("menu")) { G.mode = "menu"; }
+requestAnimationFrame(frame);
+</script>
+</body>
+</html>
